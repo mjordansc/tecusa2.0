@@ -1,0 +1,101 @@
+# Translation of Plugins - Google Analytics for WooCommerce - Stable (latest release) in Spanish (Mexico)
+# This file is distributed under the same license as the Plugins - Google Analytics for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-10-12 15:48:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es_MX\n"
+"Project-Id-Version: Plugins - Google Analytics for WooCommerce - Stable (latest release)\n"
+
+#. translators: 1: href link to GA pro
+#: woocommerce-google-analytics-integration.php:211
+msgid "Add advanced tracking for your sales funnel, coupons and more. [<a href=\"%s\" target=\"_blank\">Learn more</a> &gt;]"
+msgstr "Añade seguimiento avanzado de tu embudo de ventas, cupones y más. [<a href=\"%s\" target=\"_blank\">Aprende más</a> &gt;]"
+
+#: woocommerce-google-analytics-integration.php:208
+msgid "Get detailed insights into your sales with Google Analytics Pro"
+msgstr "Obtén información detallada sobre tus ventas con Google Analytics Pro"
+
+#. Author URI of the plugin
+#: woocommerce-google-analytics-integration.php
+msgid "https://woocommerce.com"
+msgstr "https://woocommerce.com"
+
+#: woocommerce-google-analytics-integration.php:120
+msgid "Support"
+msgstr "Soporte"
+
+#: woocommerce-google-analytics-integration.php:119
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/class-wc-google-analytics.php:209
+msgid "Please note, for transaction tracking to work properly, you will need to use a payment gateway that redirects the customer back to a WooCommerce order received/thank you page."
+msgstr "Por favor, ten en cuenta que  para que funcione correctamente el seguimiento de transacciones, tienes que usar una pasarela de pago que redirija al cliente de vuelta tu página de pedido recibido/agradecimiento de WooCommerce."
+
+#: includes/class-wc-google-analytics.php:205
+msgid "Please allow Google Analytics 24 hours to start displaying results."
+msgstr "Por favor, dale a Google Analytics 24 horas para empezar a mostrar resultados."
+
+#: includes/class-wc-google-analytics.php:185
+msgid "Checkout Process Initiated"
+msgstr "Iniciado el proceso de pago"
+
+#: includes/class-wc-google-analytics.php:178
+msgid "Product Detail Views"
+msgstr "Ver detalles del producto"
+
+#: includes/class-wc-google-analytics.php:171
+msgid "Product Clicks from Listing Pages"
+msgstr "Clics en producto en las páginas de catálogo"
+
+#: includes/class-wc-google-analytics.php:164
+msgid "Product Impressions from Listing Pages"
+msgstr "Impresiones de producto en las páginas de catálogo"
+
+#: includes/class-wc-google-analytics.php:157
+msgid "Remove from Cart Events"
+msgstr "Eventos de eliminar del carrito"
+
+#: includes/class-wc-google-analytics.php:151
+msgid "Add to Cart Events"
+msgstr "Eventos de añadir al carrito"
+
+#: includes/class-wc-google-analytics.php:145
+msgid "This requires a payment gateway that redirects to the thank you/order received page after payment. Orders paid with gateways which do not do this will not be tracked."
+msgstr "Esto requiere una pasarela de pago que redirija a la página de agradecimiento/pedido recibido tras el pago. Los pedidos pagados con pasarelas que no hagan esto no tendrán seguimiento."
+
+#: includes/class-wc-google-analytics.php:144
+msgid "Purchase Transactions"
+msgstr "Transacciones de venta"
+
+#: includes/class-wc-google-analytics.php:120
+msgid "\"Display Advertising\" Support"
+msgstr "Compatibilidad con \"analíticas de publicidad\""
+
+#. Description of the plugin
+#: woocommerce-google-analytics-integration.php
+msgid "Allows Google Analytics tracking code to be inserted into WooCommerce store pages."
+msgstr "Permite insertar el código de seguimiento de Google Analytics en las páginas de una tienda WooCommerce."
+
+#. Author of the plugin
+#: woocommerce-google-analytics-integration.php
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/class-wc-google-analytics.php:35
+msgid "Google Analytics is a free service offered by Google that generates detailed statistics about the visitors to a website."
+msgstr "Google Analytics es un servicio gratuito ofrecido por Google que genera estadísticas detalladas sobre los visitantes de una web."
+
+#: includes/class-wc-google-analytics.php:34
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#. Plugin URI of the plugin
+#: woocommerce-google-analytics-integration.php
+msgid "https://wordpress.org/plugins/woocommerce-google-analytics-integration/"
+msgstr "https://es-mx.wordpress.org/plugins/woocommerce-google-analytics-integration/"
