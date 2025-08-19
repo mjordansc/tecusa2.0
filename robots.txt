@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Disallow: /privacy-policy/
+Disallow: /cookies-policy/
+Disallow: /terms-and-conditions/
+Disallow: /shipping-returns-policy/
+Disallow: /magazine/
+Disallow: /intro/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /dropshipping/
+
+Sitemap: https://theextremecollectionusa.com/sitemap_index.xml
