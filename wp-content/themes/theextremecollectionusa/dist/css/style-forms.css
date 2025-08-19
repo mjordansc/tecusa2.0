@@ -1,0 +1,216 @@
+
+/*
+==============================
+Feature: Forms
+Section: Inputs
+==============================
+*/
+
+div.wpcf7 .ajax-loader {
+	position: absolute;
+}
+.wpcf7-spinner {
+	display: none;
+}
+.button-wrapper {
+ width: 150px;
+}
+.button-wrapper .button {
+	width: 100%;
+	position: relative;
+	z-index: 2;
+}
+.button-frame {
+	position: absolute;
+	z-index: 1;
+	border: 1px solid #171717;
+	background: #fff;
+	top: -.25rem;
+	left: -.25rem;
+	right: -.25rem;
+	bottom: -.25rem;
+}
+form.wpcf7-form div.container-fluid div.row+p {
+    display: none;
+}
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: transparent;
+    opacity: 1;
+}
+.wpcf7-form-control.wpcf7-acceptance .wpcf7-list-item label span {
+    padding-left: .25em;
+    color: #171717;
+    font-family: 'Lexend', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 15px;
+}
+.wpcf7-form-control.wpcf7-acceptance .wpcf7-list-item .wpcf7-list-item-label a {
+	color: #171717;
+	font-family: 'Lexend', sans-serif;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 15px;
+}
+.form-control:focus {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 0;
+    border-color: inherit;
+    color: #e7e7e7;
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+input[type="search"],
+textarea {
+    background-color: transparent;
+    box-shadow: 0 0 0;
+    color: #171717 !important;
+		border:0;
+		width:100%;
+    border-bottom: 1px solid #171717 !important;
+    border-radius: 0 !important;
+    padding: 5px 10px 5px 0 !important;
+    font-size: 0.9rem;
+		font-family: 'Lexend';
+}
+
+input::placeholder,
+textarea::placeholder {
+	font-size: 0.9rem;
+	color: rgba(23,23,23,0.40);
+}
+
+/*
+==============================
+Feature: Forms
+Section: Checkbox
+==============================
+*/
+
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.custom-checkbox::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-right: 0.9375rem;
+  background-color: transparent;
+  background-size: 1.2rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border: 1px solid #6D6F71;
+}
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 10px;
+  margin-left: 16px;
+}
+.checkbox-wrapper input[type="checkbox"]:checked + .custom-checkbox::before {
+  background-image: url(../../dist/images/icon-check.svg);
+  border: 1px solid #80C342;
+}
+.checkbox-wrapper input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  z-index: 12;
+  width: 20px;
+  height: 20px;
+}
+.checkbox-wrapper input[type="checkbox"]:hover {
+  cursor: pointer;
+}
+.wpcf7-list-item {
+	margin: 0;
+}
+.wpcf7-list-item input[type="checkbox"] {
+	display: none;
+}
+input[type="checkbox"]+span.wpcf7-list-item-label:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+		position:relative;
+		top:0px;
+    margin: 0.4em 0.5em 0 0;
+    border: 1px solid #171717;
+    background: transparent;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked+span.wpcf7-list-item-label:before {
+    border-color: #171717;
+}
+input[type="checkbox"]:checked+span.wpcf7-list-item-label:after {
+    content: "";
+    width: 12px;
+    height: 6px;
+    border: 2px solid #171717;
+    display:inline-block;
+		position:absolute;
+		left:26px;
+    margin-left: -1.55em;
+    border-right: 0;
+    border-top: 0;
+    margin-top: .7em;
+    transform: rotate(-55deg);
+    cursor: pointer;
+}
+input[type="checkbox"]+span.wpcf7-list-item-label {
+    font-weight: 400;
+    color: #171717;
+}
+input[type="checkbox"]:checked+span.wpcf7-list-item-label {
+    color: #171717;
+}
+.checkbox-row .wpcf7-checkbox{
+	display:flex;
+	flex-wrap: wrap;
+  width: 100%;
+}
+.checkbox-row .wpcf7-list-item {
+	width:100%;
+}
+.condiciones-text {
+	font-size:.85em;
+	position:relative;
+	top:-2px;
+}
+@media (min-width:992px) {
+	.checkbox-row .wpcf7-list-item {
+		width:50%;
+	}
+}
+
+
+#parsley-id-44 {
+	display: none;
+}
+.condiciones p {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}

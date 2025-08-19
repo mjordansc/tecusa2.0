@@ -1,0 +1,310 @@
+# Copyright (C) 2022 WP Sheet Editor
+# This file is distributed under the same license as the WP Sheet Editor - WooCommerce Orders plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Sheet Editor - WooCommerce Orders 1.3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-orders\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-09-28T23:24:29+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+
+#. Plugin Name of the plugin
+msgid "WP Sheet Editor - WooCommerce Orders"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wpsheeteditor.com/extensions/woocommerce-orders-spreadsheet/?utm_source=wp-admin&utm_medium=plugins-list&utm_campaign=wc-orders"
+msgstr ""
+
+#. Description of the plugin
+msgid "View all the orders in a spreadsheet and edit the information easily."
+msgstr ""
+
+#. Author of the plugin
+msgid "WP Sheet Editor"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://wpsheeteditor.com/?utm_source=wp-admin&utm_medium=plugins-list&utm_campaign=wc-orders"
+msgstr ""
+
+#: inc/integrations/germanized-for-woocommerce.php:33
+msgid "Germanized : Invoice numbers"
+msgstr ""
+
+#: inc/integrations/germanized-for-woocommerce.php:38
+msgid "Germanized : Invoice date"
+msgstr ""
+
+#: inc/integrations/germanized-for-woocommerce.php:44
+msgid "Germanized : Invoice delivery status"
+msgstr ""
+
+#: inc/integrations/germanized-for-woocommerce.php:50
+msgid "Germanized : Invoice PDF"
+msgstr ""
+
+#: inc/integrations/germanized-for-woocommerce.php:58
+msgid "Germanized : Invoice status"
+msgstr ""
+
+#: inc/integrations/germanized-for-woocommerce.php:80
+msgid "Delivered @ %s"
+msgstr ""
+
+#: inc/integrations/germanized-for-woocommerce.php:80
+msgid "Not yet delivered"
+msgstr ""
+
+#: inc/integrations/woocommerce-subscriptions.php:19
+msgid "WooCommerce Subscriptions"
+msgstr ""
+
+#: inc/integrations/woocommerce-subscriptions.php:54
+msgid "Parent order ID"
+msgstr ""
+
+#: inc/sheet.php:24
+msgid "Orders"
+msgstr ""
+
+#: inc/sheet.php:99
+#: inc/sheet.php:100
+#: inc/sheet.php:971
+msgid "Line items"
+msgstr ""
+
+#: inc/sheet.php:103
+msgid "Product title"
+msgstr ""
+
+#: inc/sheet.php:104
+msgid "Quantity"
+msgstr ""
+
+#: inc/sheet.php:105
+msgid "Sku"
+msgstr ""
+
+#: inc/sheet.php:106
+msgid "Price"
+msgstr ""
+
+#: inc/sheet.php:107
+msgid "Product ID"
+msgstr ""
+
+#: inc/sheet.php:108
+msgid "Variation ID"
+msgstr ""
+
+#: inc/sheet.php:111
+#: inc/sheet.php:1114
+msgid "Product"
+msgstr ""
+
+#: inc/sheet.php:140
+msgid "Export every product (line item) as separate rows?"
+msgstr ""
+
+#: inc/sheet.php:288
+#: inc/sheet.php:501
+msgid "Regenerate download permissions"
+msgstr ""
+
+#: inc/sheet.php:303
+#: inc/sheet.php:493
+msgid "Recalculate taxes"
+msgstr ""
+
+#: inc/sheet.php:317
+#: inc/sheet.php:461
+msgid "Increase product prices by percentage"
+msgstr ""
+
+#: inc/sheet.php:318
+msgid "Increase the existing value by a percentage.<br>The result is rounded to the 2 nearest decimals. I.e. 3.845602 becomes 3.85"
+msgstr ""
+
+#: inc/sheet.php:331
+#: inc/sheet.php:352
+msgid "Increase by"
+msgstr ""
+
+#: inc/sheet.php:332
+#: inc/sheet.php:374
+msgid "Enter the percentage number."
+msgstr ""
+
+#: inc/sheet.php:338
+#: inc/sheet.php:469
+msgid "Increase product prices by number"
+msgstr ""
+
+#: inc/sheet.php:339
+msgid "Increase the existing value by a number.<br>The result is rounded to the 2 nearest decimals. I.e. 3.845602 becomes 3.85"
+msgstr ""
+
+#: inc/sheet.php:353
+#: inc/sheet.php:395
+msgid "Enter the number."
+msgstr ""
+
+#: inc/sheet.php:359
+#: inc/sheet.php:477
+msgid "Decrease product prices by percentage"
+msgstr ""
+
+#: inc/sheet.php:360
+msgid "Decrease the existing value by a percentage.<br>The result is rounded to the 2 nearest decimals. I.e. 3.845602 becomes 3.85"
+msgstr ""
+
+#: inc/sheet.php:373
+#: inc/sheet.php:394
+msgid "Decrease by"
+msgstr ""
+
+#: inc/sheet.php:380
+#: inc/sheet.php:485
+msgid "Decrease product prices by number"
+msgstr ""
+
+#: inc/sheet.php:381
+msgid "Decrease the existing value by a number.<br>The result is rounded to the 2 nearest decimals. I.e. 3.845602 becomes 3.85"
+msgstr ""
+
+#: inc/sheet.php:402
+#: inc/sheet.php:410
+#: inc/sheet.php:509
+msgid "Add note"
+msgstr ""
+
+#: inc/sheet.php:414
+msgid "Note type"
+msgstr ""
+
+#: inc/sheet.php:416
+msgid "Private note"
+msgstr ""
+
+#: inc/sheet.php:416
+msgid "Note to customer"
+msgstr ""
+
+#: inc/sheet.php:517
+msgid "Delete all the notes from the selected orders"
+msgstr ""
+
+#: inc/sheet.php:803
+msgid "Find orders containing these products"
+msgstr ""
+
+#: inc/sheet.php:805
+msgid "It must contain all the products selected"
+msgstr ""
+
+#: inc/sheet.php:806
+msgid "It must contain at lest one product selected"
+msgstr ""
+
+#: inc/sheet.php:808
+msgid "Select product(s)..."
+msgstr ""
+
+#: inc/sheet.php:813
+msgid "Registered customer"
+msgstr ""
+
+#: inc/sheet.php:813
+msgid "Find orders made by specific customers"
+msgstr ""
+
+#: inc/sheet.php:814
+msgid "Select..."
+msgstr ""
+
+#: inc/sheet.php:827
+#: inc/sheet.php:978
+msgid "Order notes"
+msgstr ""
+
+#: inc/sheet.php:827
+msgid "Search by order notes.<br/>Search by multiple keywords separating keywords with a semicolon (;)"
+msgstr ""
+
+#: inc/sheet.php:831
+msgid "Order notes don't contains these keywords"
+msgstr ""
+
+#: inc/sheet.php:831
+msgid "Search orders where notes dont contains these keywords.<br/>Search by multiple keywords separating keywords with a semicolon (;)"
+msgstr ""
+
+#: inc/sheet.php:878
+msgid "Subtotal"
+msgstr ""
+
+#: inc/sheet.php:883
+msgid "Order number"
+msgstr ""
+
+#: inc/sheet.php:888
+msgid "Total"
+msgstr ""
+
+#: inc/sheet.php:893
+msgid "Order note"
+msgstr ""
+
+#: inc/sheet.php:957
+msgid "Order Details"
+msgstr ""
+
+#: inc/sheet.php:965
+msgid "Tax rate: %s"
+msgstr ""
+
+#: inc/sheet.php:1059
+msgid "Note: %s (Added by %s on %s, Visibility: %s)"
+msgstr ""
+
+#: inc/sheet.php:1059
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/sheet.php:1173
+msgid "Enable editing"
+msgstr ""
+
+#: inc/sheet.php:1176
+msgid "By default all the cells are readonly for safety reasons, click here if you want to edit information."
+msgstr ""
+
+#: inc/sheet.php:1183
+msgid "Create order"
+msgstr ""
+
+#: views/welcome-page-content.php:4
+msgid "Thank you for installing our plugin."
+msgstr ""
+
+#: views/welcome-page-content.php:9
+msgid "Install the plugin: WooCommerce. <a href=\"%s\" target=\"_blank\" class=\"button install-plugin-trigger\">Click here</a>. This is a WooCommerce extension."
+msgstr ""
+
+#: views/welcome-page-content.php:11
+msgid "You can open the Orders Spreadsheet Now:  <a href=\"%s\" class=\"button\">Click here</a>"
+msgstr ""
+
+#: woocommerce-orders.php:79
+msgid "Please update the WP Sheet Editor plugin and all its extensions to the latest version. The features of the plugin \""
+msgstr ""
+
+#: woocommerce-orders.php:132
+msgid "My license"
+msgstr ""

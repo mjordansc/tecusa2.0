@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Additional Order Filters for WooCommerce 1.02\n"
+"POT-Creation-Date: 2017-10-02 16:19+0300\n"
+"PO-Revision-Date: 2020-10-11 12:08+0300\n"
+"Last-Translator: \n"
+"Language-Team: Anton Bond\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: languages\n"
+
+#: additionalorderfilters.php:72
+msgid "Settings"
+msgstr "הגדרות"
+
+#: additionalorderfilters.php:110
+msgid "Active filters:"
+msgstr ":פילטרים פעילים"
+
+#: additionalorderfilters.php:139
+msgid "Select all"
+msgstr "בחר הכול"
+
+#: additionalorderfilters.php:139
+msgid "Deselect all"
+msgstr "בטל בחירה מהכול"
+
+#: additionalorderfilters.php:141
+msgid "Number of filters in the column:"
+msgstr ":מס. פילטרים בטור"
+
+#: additionalorderfilters.php:165
+msgid "Order Statuses"
+msgstr "סטאטוס"
+
+#: additionalorderfilters.php:168
+msgid "Payment Method"
+msgstr "שיטת תשלום"
+
+#: additionalorderfilters.php:171
+msgid "Customer Group"
+msgstr "קבוצת לקוח"
+
+#: additionalorderfilters.php:174
+msgid "Shipping Method"
+msgstr "שיטת משלוח"
+
+#: additionalorderfilters.php:177
+msgid "Customer Email"
+msgstr "אי-מייל"
+
+#: additionalorderfilters.php:180
+msgid "Customer First Name"
+msgstr "שם פרטי"
+
+#: additionalorderfilters.php:183
+msgid "Customer Last Name"
+msgstr "שם משפחה"
+
+#: additionalorderfilters.php:186
+msgid "Customer Billing Address"
+msgstr "כתובת לחיוב"
+
+#: additionalorderfilters.php:199
+msgid "Customer Billing Country"
+msgstr "מדינה לחיוב לקוחות"
+
+#: additionalorderfilters.php:189
+msgid "Customer Phone"
+msgstr "טלפון"
+
+#: additionalorderfilters.php:192
+msgid "Track Number"
+msgstr "מס. מעקב"
+
+#: additionalorderfilters.php:193
+msgid ""
+"This filter requires <a href=\"https://woocommerce.com/products/shipment-"
+"tracking/\" target=\"_blank\">Shipment Tracking</a> plugin."
+msgstr ""
+"פילטר נדרש <a href=\"https://woocommerce.com/products/shipment-tracking/\" "
+"target=\"_blank\">Shipment Tracking</a> חיבור."
+
+#: additionalorderfilters.php:196
+msgid "Search by SKU Number"
+msgstr "מק\"ט"
+
+#: additionalorderfilters.php:199
+msgid "Orders by Date Range"
+msgstr "תווך תאריכים"
+
+#: additionalorderfilters.php:202
+msgid "Order Total"
+msgstr "סה\"כ הזמנה"
+
+#: additionalorderfilters.php:221
+msgid "Additional Filters"
+msgstr "פילטרים נוספים"
+
+#: additionalorderfilters.php:345
+msgid "Start date"
+msgstr "ההתחלה"
+
+#: additionalorderfilters.php:346
+msgid "End date"
+msgstr "הסוף"
+
+#: additionalorderfilters.php:355
+msgid "from:"
+msgstr "מ:"
+
+#: additionalorderfilters.php:359
+msgid "to:"
+msgstr "עד:"
+
+#: additionalorderfilters.php:370
+msgid "Apply Filters"
+msgstr "הפעל"
+
+#: additionalorderfilters.php:371
+msgid "Clear"
+msgstr "נקה"

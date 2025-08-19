@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="423px" height="442px" viewBox="0 0 423 442" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Volume Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom-Preset" transform="translate(-30.000000, -23.000000)" fill="#000000">
+            <g id="Volume-Icon" transform="translate(30.000000, 23.000000)">
+                <path d="M273,442 C372.543788,376.03662 422.315682,302.369953 422.315682,221 C422.315682,139.630047 372.543788,65.9633802 273,0 L273,77.1458879 C330.704122,125.097791 359.556182,173.049162 359.556182,221 C359.556182,268.950838 330.704122,316.901349 273,364.851533 L273,442 Z" id="large-Sound-Wave"></path>
+                <path d="M273,330 C316.491815,297.615264 338.237722,261.448597 338.237722,221.5 C338.237722,181.551403 316.491815,145.384736 273,113 L273,330 Z" id="Small-Sound-Wave"></path>
+                <path d="M248.544883,220.784004 L248.627034,220.784004 L248.627034,442 L113.79161,307.164576 L0.0821504895,307.164576 L0.0821504895,221.215996 L0,221.215996 L0,134.835424 L113.709459,134.835424 L248.544883,0 L248.544883,220.784004 Z" id="Speaker"></path>
+            </g>
+        </g>
+    </g>
+</svg>

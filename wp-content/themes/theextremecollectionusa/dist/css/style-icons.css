@@ -1,0 +1,65 @@
+.icon {
+  display: block;
+}
+.icon::before {
+  content: '';
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+}
+.icon-header::before,
+.icon-contact::before,
+.icon-personalshopper::before {
+  width: 24px;
+  height: 24px;
+}
+.icon-pagination::before {
+  width: 27px;
+  height: 27px;
+}
+.icon-link::before {
+  width: 36px;
+  height: 36px;
+}
+.icon-cart::before {
+  background-image: url(../../img/icons/icon-bag.svg);
+}
+.icon-search::before {
+  background-image: url(../../img/icons/icon-search.svg);
+  width: 20px;
+  height: 20px;
+}
+.icon-user::before {
+  background-image: url(../../img/icons/icon-user.svg);
+}
+.icon-cart::before {
+  background-image: url(../../img/icons/icon-bag.svg);
+}
+.icon-phone::before {
+  background-image: url(../../img/icons/icon-phone.svg);
+}
+.icon-text::before {
+  background-image: url(../../img/icons/icon-text.svg);
+}
+.icon-email::before {
+  background-image: url(../../img/icons/icon-email.svg);
+}
+.icon-menu::before {
+  background-image: url(../../img/icons/icon-menu.svg);
+}
+.icon-arrow-right::before {
+  background-image: url(../../img/icons/icon-arrow-right.svg);
+}
+.icon-arrow-left::before {
+  background-image: url(../../img/icons/icon-arrow-left.svg);
+}
+.icon-marker::before {
+  background-image: url(../../img/icons/icon-marker.svg);
+}
+.icon-whatsapp::before {
+  background-image: url(../../img/icons/icon-whatsapp.svg);
+}
+.icon-facetime::before {
+  background-image: url(../../img/icons/icon-facetime.svg);
+}

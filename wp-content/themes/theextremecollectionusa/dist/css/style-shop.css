@@ -1,0 +1,344 @@
+/*
+==============================
+Page: Home
+Section: Banner - Mobile
+==============================
+*/
+
+.banner-home, .banner-home .row  {
+  height: 90vh;
+}
+
+@media (min-width: 992px) {
+  .banner-home {
+    height:0;
+  }
+}
+/*
+==============================
+Page: Home
+Section: Banner - Scroll
+==============================
+*/
+
+.scroll-home {
+  position:absolute;
+  bottom:6%;
+  left:50%;
+  z-index:22;
+  transform:translateX(-50%);
+}
+.scroll-home img:first-child {
+  width:50px;
+}
+.scroll-line-position {
+  position:absolute;
+  top:0;
+  left:50%;
+  width:15px;
+  transform:translateX(-50%);
+}
+.move-down {
+  -webkit-animation: mover 0.8s infinite  easing;
+  animation: mover 0.8s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translate(-50%,20px); }
+    100% { transform: translate(-50%,5px); }
+}
+@keyframes mover {
+    0% { transform: translate(-50%,20px); }
+    100% { transform: translate(-50%,5px); }
+}
+
+/*
+==============================
+Page: Home
+Section: Banner - Title
+==============================
+*/
+
+.home-title {
+  font-size: 2.2em;
+  line-height: 1.1em;
+  margin-top: 5rem;
+}
+@media (min-width: 992px) {
+  .home-title {
+    font-size: 2.5em;
+    line-height: 1.1em;
+    margin-top: 0rem;
+  }
+  .video-wrapper .row{
+    height: 88vh;
+  }
+}
+
+@media (min-width: 1600px) {
+  .home-title {
+    font-size: 3.5em;
+  }
+}
+
+/*
+==============================
+Page: Home
+Section: Featured Categories
+==============================
+*/
+
+#featured.extra-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+#featured .m-featured-left {
+  padding-left: 0;
+}
+#featured .m-featured-right {
+  padding-right: 0;
+}
+.extra-wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.p-featured-right {
+  padding-left: 40%;
+  padding-right: 25px;
+}
+.p-featured-left {
+  padding-right: 40%;
+  padding-left: 25px;
+}
+.featured-category-caption {
+  background-color: #fff;
+  padding: 1.5rem;
+  position: relative;
+  top: -2rem;
+  margin: 0 auto;
+  width: 90%;
+}
+@media (min-width: 576px) {
+  .p-featured-right {
+    padding-left: 10%;
+    padding-right: 25px;
+  }
+  .p-featured-left {
+    padding-right: 10%;
+    padding-left: 25px;
+  }
+  #featured .m-featured-left {
+    padding-left: 15px;
+  }
+  #featured .m-featured-right {
+    padding-right: 15px;
+  }
+  #featured.extra-wrapper {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media (min-width: 768px) {
+  .p-featured {
+    padding-top: 5rem;
+  }
+}
+@media (min-width:992px) {
+  .p-featured {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  #featured.extra-wrapper,
+  .extra-wrapper {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .title-featured {
+    font-size: 1.5em;
+    line-height: 1.3em;
+  }
+  .featured-category-caption {
+    width: 85%;
+  }
+}
+@media (min-width:1200px) {
+  #featured.extra-wrapper {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+  .extra-wrapper {
+    padding-left: 22%;
+    padding-right: 22%;
+  }
+}
+@media (min-width:1600px) {
+  #featured.extra-wrapper,
+  .extra-wrapper {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+}
+
+/*
+==============================
+Page: Home
+Section: Categories
+==============================
+*/
+
+#product-categories a:hover {
+  opacity: 70%;
+}
+.category-title {
+  position: absolute;
+  transform: translateX(-50%);
+  bottom: 10px;
+  left: 50%;
+  padding: 10px 10px;
+  background-color: #fff;
+}
+.category-s-height {
+  min-height: 55vh;
+}
+.category-l-height {
+  min-height: 55vh;
+}
+@media (min-width:992px) {
+  .category-title {
+    bottom: 10px;
+    transform: none;
+    left: 20px;
+  }
+  .category-s-height {
+    min-height: 30vh;
+  }
+  .category-l-height {
+    min-height: 100%;
+  }
+  .category-title {
+    font-size: 1.5em;
+    bottom: 30px;
+    left: 30px;
+  }
+}
+@media (min-width:1200px) and (max-height:1000px) {
+  .category-s-height {
+    min-height: 45vh;
+  }
+}
+
+/*
+==============================
+Page: Home
+Section: Johanna Ortiz Collaboration
+==============================
+*/
+
+.collab-johanna-logos img {
+  width: 180px;
+  height: auto;
+}
+.collab-johanna-logos img:nth-child(even) {
+  margin-bottom: 10px;
+}
+@media (min-width: 992px) {
+  .collab-johanna-logos img:first-child {
+    margin-right: 15px;
+  }
+  .collab-johanna-logos img:nth-child(odd) {
+    margin-bottom: 0;
+  }
+}
+/*
+==============================
+Page: Home
+Section: Personal Shopper
+==============================
+*/
+
+#personal-shopper h3 {
+  font-size: 1.1em;
+}
+@media (min-width:992px) {
+  #personal-shopper .title-underline:after {
+    margin: unset;
+  }
+  #personal-shopper h3 {
+    font-size: 1.3em;
+  }
+}
+
+/*
+==============================
+Page: Home
+Section: Extreme Ladies
+==============================
+*/
+
+.slider-wrapper {
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
+}
+.ladies-cover {
+  object-fit: cover;
+  height: 25vh;
+  margin:0 10px;
+}
+
+@media (min-width: 576px) {
+  .ladies-cover {
+    height: 40vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .ladies-cover {
+    height: 30vh;
+  }
+}
+
+@media (min-width: 1200px) and (max-height:1000px) {
+  .ladies-cover {
+    height: 35vh;
+  }
+}
+
+/*
+==============================
+Page: Single Product View
+Section: Out of stock variations
+==============================
+*/
+
+/*.iconic-was-swatch--disabled:hover {
+  cursor: not-allowed;
+}*/
+.iconic-was-swatches .iconic-was-swatches__item--out-of-stock .iconic-was-swatch.iconic-was-swatch--text-swatch {
+  text-decoration: line-through;
+  text-decoration-color: #EB5D55;
+  border: 1px solid #EB5D55;
+  color: #EB5D55 !important;
+}
+.iconic-was-swatch--disabled, .iconic-was-swatches__item--out-of-stock .iconic-was-swatch {
+  opacity: 0.7;
+}
+
+
+.checkout-button.wc-forward {
+  margin-top: 15px;
+}
+
+#availableBtnVariations {
+  display: none;
+}
+
+
+.related.products ul.products li.product img.alternate-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-height: 40vh;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

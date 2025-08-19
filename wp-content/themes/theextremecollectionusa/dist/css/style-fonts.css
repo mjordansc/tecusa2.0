@@ -1,0 +1,326 @@
+/*
+==============================
+Font Family
+==============================
+*/
+
+
+@font-face {
+  font-family: 'Lemon Milk';
+  src: url(fonts/LEMONMILK-Regular.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Lemon Milk';
+  src: url(fonts/LEMONMILK-Italic.otf);
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Lemon Milk';
+  src: url(fonts/LEMONMILK-SemiBold.otf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Lemon Milk';
+  src: url(fonts/LEMONMILK-SemiBoldItalic.otf);
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Lemon Milk';
+  src: url(fonts/LEMONMILK-Bold.otf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Lemon Milk';
+  src: url(fonts/LEMONMILK-BoldItalic.otf);
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+.ft-Lemon,
+.ft-Lemon p {
+  font-family:'Lemon Milk', sans-serif;
+  font-weight:400;
+}
+
+.ft-RedHat,
+.ft-RedHat p {
+  font-family:'Red Hat Display', sans-serif;
+}
+
+.ft-Lexend,
+.ft-Lexend p {
+  font-family:'Lexend', sans-serif;
+  font-weight:400;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a {
+  font-family: 'Lemon Milk', sans-serif;
+  font-weight: 400;
+}
+p,
+a,
+input,
+textarea,
+ul li,
+ol li,
+span,
+table,
+table tr,
+table tr td {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.5em;
+}
+
+a {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.5em;
+}
+
+/*
+==============================
+Cookies Notice
+==============================
+*/
+
+.cc-banner .cc-message {
+	font-family:'Red Hat Display', sans-serif;
+  font-size:0.9em;
+}
+.cc-banner .cc-link {
+  font-size:1em;
+  font-weight:500;
+  color:#222 !important;
+}
+
+/*
+==============================
+Font Size
+==============================
+*/
+
+.fs-07 {
+  font-size: 0.7em;
+}
+.fs-08 {
+  font-size: 0.8em;
+}
+.fs-09 {
+  font-size: 0.9em;
+}
+.fs-1em {
+  font-size: 1em;
+}
+.fs-11 {
+  font-size: 1.1em;
+}
+.fs-12 {
+  font-size: 1.2em;
+}
+.fs-13 {
+  font-size: 1.3em;
+}
+.fs-14 {
+  font-size: 1.4em;
+}
+.fs-15 {
+  font-size: 1.5em;
+}
+.fs-2 {
+  font-size: 2em;
+}
+.fs-25 {
+  font-size: 2.5em;
+}
+.fs-3 {
+  font-size: 3em;
+}
+
+/*
+==============================
+Font Weight
+==============================
+*/
+
+.fw-900 {
+  font-weight: 900;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-500,
+.fw-500 p {
+  font-weight: 500;
+}
+.fw-400,
+.fw-400 p {
+  font-weight: 400;
+}
+.fw-300 {
+  font-weight: 300;
+}
+
+/*
+==============================
+Font Style
+==============================
+*/
+
+.f-italic {
+  font-style: italic;
+}
+b,
+strong {
+  font-weight: 700;
+}
+
+/*
+==============================
+Header Sizes
+==============================
+*/
+
+h1 {
+    font-size: 1.8em;
+    line-height: 1em;
+}
+h2 {
+    font-size: 1.5em;
+    line-height: 1em;
+}
+h3 {
+    font-size: 1.3em;
+    line-height: 1em;
+}
+h4 {
+    font-size: 1.1em;
+    line-height: 1em;
+}
+h5 {
+    font-size: 1em;
+    line-height: 1em;
+}
+
+/*
+==============================
+Font Sizes - Media Queries
+==============================
+*/
+
+@media (min-width: 992px) {
+  h1 {
+      font-size: 2em;
+  }
+  h2 {
+      font-size: 1.6em;
+  }
+  .fs-lg-07 {
+    font-size: 0.7em;
+  }
+  .fs-lg-08 {
+    font-size: 0.8em;
+  }
+  .fs-lg-09 {
+    font-size: 0.9em;
+  }
+  .fs-lg-1 {
+    font-size: 1em;
+  }
+  .fs-lg-11 {
+    font-size: 1.1em;
+  }
+  .fs-lg-12 {
+    font-size: 1.2em;
+  }
+  .fs-lg-13 {
+    font-size: 1.3em;
+  }
+  .fs-lg-14 {
+    font-size: 1.4em;
+  }
+  .fs-lg-15 {
+    font-size: 1.5em;
+  }
+  .fs-lg-16 {
+    font-size: 1.6em;
+  }
+  .fs-lg-17 {
+    font-size: 1.7em;
+  }
+  .fs-lg-18 {
+    font-size: 1.8em;
+  }
+  .fs-lg-19 {
+    font-size: 1.9em;
+  }
+  .fs-lg-2 {
+    font-size: 2em;
+  }
+  .fs-lg-25 {
+    font-size: 2.5em;
+  }
+  .fs-lg-3 {
+      font-size: 3em;
+  }
+}
+
+/*
+==============================
+Custom Sizes
+==============================
+*/
+
+.section-title {
+  font-size:1.4em;
+  line-height: 1.4em;
+}
+.section-subtitle {
+  font-size:1.15em;
+  line-height:1.3em;
+}
+
+@media(min-width:992px) {
+  .section-title {
+    font-size:1.8em;
+    line-height:1.3em;
+  }
+  .section-subtitle {
+    font-size:1.4em;
+    line-height:1.25em;
+  }
+}
+
+@media (max-width: 400px) {
+  .x-small {
+    font-size: 0.8em;
+  }
+}
+@media (min-width: 992px) {
+  .x-small {
+    font-size: 0.95rem;
+  }
+}

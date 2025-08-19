@@ -1,0 +1,598 @@
+/***
+============================================
+General Styles
+Section: Body
+============================================
+***/
+
+body {
+  color: #171717;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    &.modal-open {
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+}
+body a,
+body a:hover,
+body a:focus,
+body a:active {
+  text-decoration: none;
+  color: inherit;
+}
+html, body {
+  scroll-behavior: auto !important;
+}
+
+/***
+============================================
+General Styles
+Section: Outline, Active, Focus
+============================================
+***/
+
+div,
+input,
+textarea,
+button:active,
+button:focus,
+.btn,
+button,
+a[type="button"] {
+    outline: 0;
+}
+.btn.focus,
+.btn:focus {
+    box-shadow: 0 0 0 0;
+}
+
+/***
+============================================
+General Styles
+Section: b & Strong tags
+============================================
+***/
+
+b, strong {
+  font-weight:400;
+}
+
+/***
+============================================
+General Styles
+Section: Lists
+============================================
+***/
+
+ul li,
+ul,
+ol li,
+ol {
+    margin: 0;
+    padding: 0;
+}
+li {
+  list-style: none;
+}
+
+/***
+============================================
+General Styles
+Section: Wrapper
+============================================
+***/
+
+.wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.wrapper-left {
+    padding-left:0px;
+}
+.wrapper-mobile-left {
+    padding-left:20px;
+}
+.wrapper-mobile-right {
+    padding-right:20px;
+}
+.wrapper-right {
+    padding-right:20px;
+    padding-left:0px;
+}
+.wrapper-full-left {
+  padding-left:33px;
+}
+.wrapper-full-right {
+  padding-left:30px;
+}
+.wrapper-full-right.wrapper-mobile-right {
+  padding-right:33px;
+}
+
+@media (min-width: 992px) {
+  .wrapper {
+      padding-left: 7%;
+      padding-right: 7%;
+  }
+  .pl-regular {
+      padding-left:7%;
+  }
+  .pr-regular {
+      padding-right:7%;
+      padding-left:25px;
+  }
+  .pl-25 {
+    padding-left:25px;
+  }
+  .wrapper-full-right {
+      padding-left:0;
+      padding-right:7%;
+  }
+  .wrapper-full-left {
+    padding-left:8%;
+  }
+  .wrapper-left {
+    padding-left:14%;
+  }
+  .wrapper-mobile-left {
+      padding-left:0;
+  }
+  .wrapper-mobile-right {
+      padding-right:0;
+  }
+}
+@media (min-width: 1200px) {
+  .wrapper {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  .wrapper-left {
+      padding-left:7%;
+  }
+  .wrapper-right {
+      padding-right:7%;
+  }
+}
+@media (min-width: 1400px) {
+  .wrapper {
+    padding-left: 9%;
+    padding-right: 9%;
+  }
+  .wrapper-left {
+    padding-left:19%;
+  }
+  .wrapper-right {
+    padding-right:9%;
+  }
+  .wrapper-full-left {
+    padding-left:10%;
+  }
+  .wrapper-full-right {
+    padding-right:19%;
+    padding-left:0;
+  }
+}
+@media (min-width: 1600px) {
+  .wrapper,
+  .m-layaout {
+    padding-left: 17%;
+    padding-right: 17%;
+  }
+  .wrapper-left {
+      padding-left:19%;
+  }
+  .wrapper-right {
+      padding-right:17%;
+  }
+  .wrapper-full-left {
+    padding-left:17.75%;
+  }
+}
+@media (min-width:1750px) {
+  .wrapper-left {
+    padding-left:34%;
+  }
+
+}
+
+/***
+============================================
+General Styles
+Section: Relative
+============================================
+***/
+
+.relative {
+    position: relative;
+}
+
+/***
+============================================
+General Styles
+Section: Recaptcha
+============================================
+***/
+
+.grecaptcha-badge {
+  right: -300px !important;
+}
+
+/***
+============================================
+General Styles
+Section: Z-index
+============================================
+***/
+
+.z-index-11 {
+    z-index: 11;
+}
+.z-index-21 {
+    z-index: 21;
+}
+
+/***
+============================================
+General Styles
+Section: Background
+============================================
+***/
+
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+    z-index: 10;
+}
+.bg-image-regular {
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+
+/***
+============================================
+General Styles
+Section: Buttons
+============================================
+***/
+
+.btn, .button {
+  background-image: none;
+  text-align: center;
+  width: auto;
+  border-radius: 0;
+  border-style: solid;
+  font-size: 1em;
+  font-family: 'Red Hat Display', sans-serif;
+}
+.button {
+  color: #fff;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #171717;
+  position: relative;
+  border: 1px solid #171717;
+  width:98%;
+  margin:0 auto;
+}
+.button::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  border: 1px solid #171717;
+  background: #fff;
+  top: -.25rem;
+  left: -.25rem;
+  right: -.25rem;
+  bottom: -.25rem;
+}
+.button:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #171717;
+  transition: all 700ms ease;
+  -webkit-transition: all 700ms ease;
+  -moz-transition: all 700ms ease;
+  -ms-transition: all 700ms ease;
+  -o-transition: all 700ms ease;
+}
+.button:focus,
+.button:active {
+  color: #fff;
+}
+.white-button {
+  color: #171717;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  position: relative;
+  border: 1px solid #fff;
+  width:200px;
+  margin-left: 5px;
+}
+.white-button::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  border: 1px solid #fff;
+  background: #fff;
+  top: -.25rem;
+  left: -.25rem;
+  right: -.25rem;
+  bottom: -.25rem;
+}
+.button-black-border {
+  background: none;
+  border: 1px solid #171717;
+  position: relative;
+  min-width: 120px;
+  height: 45px;
+  z-index: 0;
+  color: #171717;
+}
+.button-black-border::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  border: 1px solid #171717;
+  top: -0.25em;
+  left: -0.25em;
+  right: -0.25em;
+  bottom: -0.25em;
+}
+.button-black-border:hover {
+  background: #171717;
+  color: #fff;
+  transition: all 700ms ease;
+  -webkit-transition: all 700ms ease;
+  -moz-transition: all 700ms ease;
+  -ms-transition: all 700ms ease;
+  -o-transition: all 700ms ease;
+}
+.button.wc-backward {
+  margin: unset;
+  width: 150px;
+}
+/***
+============================================
+General Styles
+Section: Custom Margins
+============================================
+***/
+
+.mb-45 {
+  margin-bottom:2rem;
+}
+.mt-45 {
+  margin-top:2rem;
+}
+.mt--2 {
+  margin-top: -2px;
+}
+.mt--10 {
+  margin-top: -10px;
+}
+.mt--40 {
+  margin-top: -40px;
+}
+.mb-5em {
+  margin-bottom:5em;
+}
+.mb-10em {
+  margin-bottom:10em;
+}
+
+/***
+============================================
+General Styles
+Section: Separator
+============================================
+***/
+
+.separator-v-s {
+  font-size: 1.4em;
+}
+
+/***
+============================================
+General Styles
+Section: Underline for Section Title
+============================================
+***/
+
+.title-underline::after {
+  content: '';
+  border-bottom: 1px solid #171717;
+  height: 1px;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/***
+============================================
+General Styles
+Section: Woocommerce Notices
+============================================
+***/
+
+.woocommerce-active .woocommerce-info,
+.woocommerce-active .woocommerce-message,
+.woocommerce-error {
+  background-color: #f5f5f5 !important;
+  padding: 10px;
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 0;
+}
+.woocommerce-active .woocommerce-message,
+.woocommerce-error {
+  border-bottom: 2px solid #EB5D55;
+}
+.woocommerce-error li {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-flow: column;
+}
+.woocommerce-error .button {
+  margin: unset;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 992px) {
+  .woocommerce-error li {
+    flex-flow: row;
+  }
+  .woocommerce-error .button {
+    width: 150px;
+    margin-right: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+/***
+============================================
+General Styles
+Section: Woocommerce Preload for Processing
+============================================
+***/
+
+.processing .blockOverlay {
+  background-image: url(../../img/tec-preloader.gif) !important;
+  background-position: center 30% !important;
+  background-repeat: no-repeat !important;
+  background-size: 70px 70px !important;
+}
+
+/***
+============================================
+General Styles
+Section: Woocommerce Pagination
+============================================
+***/
+
+.woocommerce-pagination {
+  clear: both;
+}
+.woocommerce-pagination .page-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.woocommerce-pagination .page-numbers li {
+  margin: 0 15px;
+  width: 1rem;
+}
+.woocommerce-pagination .page-numbers li span {
+  font-size: 1.1rem;
+}
+.woocommerce-pagination .page-numbers li .current {
+  color: #EB5D55;
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid #EB5D55;
+}
+
+/***
+============================================
+General Styles
+Section: Form Validation
+============================================
+***/
+
+.wpcf7-not-valid-tip {
+  color: #EB5D55;
+  position: absolute;
+  min-width: 200px;
+}
+.invalid .wpcf7-response-output {
+  border-bottom: 2px solid #EB5D55 !important;
+}
+/***
+============================================
+General Styles
+Section: Confirmation message on forms
+============================================
+***/
+
+.wpcf7-response-output {
+  background-color: #f5f5f5;
+  border: 0 !important;
+  border-bottom: 2px solid #171717 !important;
+  margin-left: -5px !important;
+}
+#form-loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255,255,255,0.5);
+  z-index: 12;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.form-preloader {
+  display: block;
+  background-image: url(../../img/tec-preloader.gif) !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 70px;
+  width: 70px;
+  margin: 0 auto;
+}
+
+/***
+============================================
+General Styles
+Section: Parsley Validation
+============================================
+***/
+
+#customer-details .form-row {
+  position: relative;
+}
+.parsley-required {
+  color: #EB5D55;
+  font-weight: 600;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 0.9em;
+  border-bottom: 1px solid #EB5D55;
+}
+.select2-container .parsley-required {
+  right: 40px;
+}
+
+/***
+============================================
+General Styles
+Section: Modals
+============================================
+***/
+
+.modal-body {
+  max-height: 80vh;
+  overflow-y: scroll;
+}

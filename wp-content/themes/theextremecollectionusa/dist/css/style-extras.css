@@ -1,0 +1,22 @@
+/*
+==============================
+Page: 404
+==============================
+*/
+
+.container-404-up {
+  margin-top: -5%;
+}
+.img-404 {
+  height: 70vh;
+}
+.text-error {
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 2.76px;
+  line-height: 28px;
+}
+.divider-header {
+  border: 1px solid #979797;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+}

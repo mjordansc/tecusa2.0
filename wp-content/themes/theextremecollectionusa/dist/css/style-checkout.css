@@ -1,0 +1,227 @@
+
+/***
+============================================
+Checkout Styles
+Section: Progress Bar
+============================================
+***/
+
+.checkout-progress-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.step-number {
+  border: 1px solid #171717;
+  border-radius: 50%;
+  height: 34px;
+  width: 34px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.progress-step.active .step-number {
+  background-color: #EB5D55;
+  border: 1px solid #EB5D55;
+  color: #fff;
+}
+.progress-step.complete .step-number {
+  background-color: #171717;
+  border: 1px solid #171717;
+  color: #fff;
+}
+.step-caption {
+  font-size: 0.9rem;
+}
+.progress-step {
+  min-width: 80px;
+}
+.progress-line {
+  height: 30px;
+  width: 75px;
+  border-bottom: 2px solid #171717;
+}
+.woocommerce-form-login-toggle {
+  display: none;
+}
+@media (min-width: 992px) {
+  .checkout-progress-bar {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .progress-step {
+    min-width: 88px;
+  }
+  .progress-line {
+    height: 30px;
+    width: 180px;
+    border-bottom: 2px solid #171717;
+  }
+  .step-caption {
+    font-size: 1rem;
+  }
+  .step-number {
+    height: 40px;
+    width: 40px;
+    font-size: 1.3rem;
+  }
+}
+
+#customer_login .button-black-border {
+  width:100%;
+}
+@media (min-width: 992px) {
+  #customer_login .button-black-border {
+    width:auto;
+  }
+}
+
+/***
+============================================
+Checkout Styles
+Section: Coupon
+============================================
+***/
+
+.checkout_coupon {
+  margin: 1.5rem 0 2.5rem 0;
+}
+.checkout_coupon input,
+.checkout_coupon button {
+  width: auto;
+  margin: unset;
+}
+
+/***
+============================================
+Checkout Styles
+Section: Shipping
+============================================
+***/
+
+#ship-to-different-address {
+  display:block ;
+  margin-bottom: 1.5rem;
+}
+
+/***
+============================================
+Checkout Styles
+Section: Payment
+============================================
+***/
+
+#continue-to-pay{
+  width: 150px;
+  margin: unset;
+}
+.payment-wrapper {
+  display: none;
+}
+.shop_table.woocommerce-checkout-review-order-table {
+  width: 100%;
+}
+.shop_table.woocommerce-checkout-review-order-table th,
+.shop_table.woocommerce-checkout-review-order-table td {
+  border: 1px solid #e7e7e7;
+  padding: 1rem 10px;
+}
+.woocommerce-checkout-payment {
+  margin-top: 2.5rem;
+  margin-bottom: 0;
+}
+.wc_payment_methods {
+  margin-bottom: 1.5rem;
+}
+.woocommerce-terms-and-conditions-wrapper {
+  margin-bottom: 1.5rem;
+}
+.place-order .button {
+  width: 150px;
+  margin: unset;
+}
+.shop_table.woocommerce-checkout-review-order-table .woocommerce-Price-amount {
+  margin: 0;
+}
+li.wc_payment_method {
+  padding: 1rem 0;
+  border-bottom: 1px solid #171717;
+}
+li.wc_payment_method label {
+  padding-left: 15px;
+}
+li.wc_payment_method p {
+  margin-top: 1rem;
+}
+.ppc-button-wrapper {
+  width: 100%;
+}
+li.wc_payment_method ul.wc-saved-payment-methods {
+  margin-left: 20px;
+  margin-bottom: 1rem;
+}
+.payment_method_klarna_payments_pay_over_time a {
+  margin-left: 10px;
+}
+.payment_method_klarna_payments_pay_over_time img {
+  max-width: 45px !important;
+  position: relative;
+  top: -2px;
+}
+@media (min-width: 992px) {
+  .woocommerce-checkout-payment {
+    margin-bottom: 2.5rem;
+  }
+  .ppc-button-wrapper {
+    width: 300px;
+  }
+  ul.wc_payment_methods {
+    width: 50%;
+  }
+}
+
+/***
+============================================
+Checkout Styles
+Section: Validated Fields
+============================================
+***/
+
+#checkout-step2 .woocommerce-validated input {
+  box-shadow: 0 0 0;
+}
+
+/***
+============================================
+Checkout Styles
+Section: View Order
+============================================
+***/
+
+.woocommerce-order .woocommerce-Price-amount {
+  display: inline-block;
+  margin: 0;
+}
+.shop_table.order_details {
+  width: 100%;
+}
+.shop_table.order_details td,
+.shop_table.order_details tfoot th {
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 10px;
+}
+.shop_table.order_details th.product-name,
+.shop_table.order_details th.product-total {
+  border-top: 1px solid #171717;
+  border-bottom: 1px solid #171717;
+  padding: 10px;
+}
+.shop_table.order_details .wc-item-meta li p {
+  display: inline-block;
+}

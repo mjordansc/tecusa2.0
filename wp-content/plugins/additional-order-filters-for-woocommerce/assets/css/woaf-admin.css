@@ -1,0 +1,171 @@
+p.description {
+	font-style: italic; margin: 0;
+}
+.waof_enebled_filters li {
+	margin-bottom: 15px;
+}
+.waof_enebled_filters label {
+	position: relative;
+	top: -3px;
+}
+.set_saved {
+	color: green;
+}
+.select_buttons {
+	margin: 20px 0;
+}
+.option_block {
+	display: block;
+	margin-bottom: 20px;
+}
+.option_block label {
+	display: block;
+	margin-bottom: 5px;
+}
+.option_block input[type="number"] {
+	max-width: 60px;
+}
+#deselect_all_filters {
+	margin-left: 10px;
+}
+.cledarfix {
+	clear: both;
+}
+.woaf_special_order_filter_wrapper {
+	display: block;
+	float: left;
+	clear: both;
+	margin: 10px 0;
+}
+.woaf_special_order_filter {
+	display: none;
+	margin-top: 20px;
+}
+.woaf_special_order_filter.opened {
+	display: block;
+}
+.woaf_special_order_filter > ul {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+}
+.post-type-shop_order .tablenav .actions {
+	float: none;
+}
+.inline_block {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 25px;
+	width: 240px;
+}
+.woaf_special_order_filter .order_block_wrapper select {
+	max-width: 100%;
+}
+.woaf_special_order_filter .date_range input[type="text"] {
+    min-width: 115px;
+}
+.woaf_special_order_filter .date_range input#woaf_filter_end_date {
+	float: right !important;
+	margin-right: 0;
+}
+.order_block_wrapper {
+	margin-bottom: 15px;
+}
+.order_block_wrapper > * {
+	display: block;
+	float: none;
+	width: 100%;
+	min-width: 180px;
+}
+.nonregistered_users_filter select {
+	display: block;
+}
+.nonregistered_users_filter {
+	margin-bottom: 10px;
+}
+.user_email_search {
+	padding-top: 20px;
+	clear: both;
+}
+.user_email_search label {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+.user_email_search input {
+	margin-top: 5px;
+	display: block;
+	width: 100%;
+}
+.order_total .inline {
+	margin-top: 10px;
+}
+.order_total .inline > label,
+.order_total .inline > input[type="number"] {
+	display: inline-block;
+	vertical-align: top;
+	width: 60px;
+	min-width: 60px;
+	line-height: 25px;
+}
+.order_total .inline > input[type="number"] {
+	width: 120px;
+}
+#woaf_show_filters {
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 7px;
+}
+.woaf_show_filters_button_wrapper #woaf_show_filters {
+	margin-left: 0;
+	margin-top: 20px;
+}
+.rtl #woaf_show_filters {
+	margin-right: 20px;
+	margin-top: 7px;
+}
+.date_range input[type="text"] {
+	min-width: 100px;
+	width: 100px;
+	display: inline-block;
+}
+.filter_buttons {
+	display: inline-block;
+	margin-top: 18px;
+}
+.post-type-shop_order .alignleft.actions .woaf_special_order_filter_wrapper .select2.select2-container {
+	display: block;
+}
+.woaf_special_order_filter_wrapper #filter_clear {
+	margin-left: 10px;
+}
+.table-custom-filters .woaf-add-custom-filter {
+	float: right;
+}
+.table-custom-filters th,
+.table-custom-filters td {
+	width: 25%
+}
+.table-custom-filters tbody input {
+	width: 100%;
+}
+.table-custom-filters tbody input.error {
+	border: 1px solid #f00;
+}
+.table-custom-filters td select.select2 {
+	width: 100%;
+}
+.text-center,
+.widefat th.text-center {
+	text-align: center;
+}
+.woaf_custom_orders_filters h2 {
+	margin-bottom: 20px;
+	font-size: 1.5em;
+}
+.woaf_special_order_filter .select2-selection__choice__display {
+	padding-left: 15px !important;
+}
+.woaf_special_order_filter .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+	padding: 2px 4px;
+}

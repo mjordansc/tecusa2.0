@@ -1,0 +1,470 @@
+# Copyright (C) 2025 WooCommerce Multi-currency
+# This file is distributed under the same license as the WooCommerce Multi-currency package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Multi-currency\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "WooCommerce Multi-currency"
+msgstr ""
+
+msgid "Multi-currency"
+msgstr ""
+
+msgctxt "Widget"
+msgid "Currency Switcher"
+msgstr ""
+
+msgctxt "Widget"
+msgid "Mouse over"
+msgstr ""
+
+msgctxt "Widget"
+msgid "Click"
+msgstr ""
+
+msgid "Rate"
+msgstr ""
+
+#. translators: %1$s - WooCommerce Multi-currency, %2$s - the incompatible plugin name
+msgid "%1$s is incompatible with %2$s."
+msgstr ""
+
+msgid "To override the automatic price conversion for this product, put the fixed price values in the fields below."
+msgstr ""
+
+msgid "Multi-currency options"
+msgstr ""
+
+msgid "To change the currency of this order, select it from the dropdown and click Create/Update."
+msgstr ""
+
+msgid "Note: this will only change the currency, not the amounts!"
+msgstr ""
+
+msgid "To change the amounts, remove the items and add them back."
+msgstr ""
+
+#. translators: %s - WooCommerce Multi-currency.
+msgid "The %s extension is active. Please configure its settings."
+msgstr ""
+
+msgid "This plugin is"
+msgid_plural "These plugins are"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "not compatible with Multi-currency by TIV.NET and may cause incorrect payment processing"
+msgstr ""
+
+msgid "Reset Multi-currency settings"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "This tool will reset all Multi-currency settings to default. This action cannot be reversed."
+msgstr ""
+
+msgid "Export Multi-currency settings"
+msgstr ""
+
+msgid "Export"
+msgstr ""
+
+msgid "This tool will export all Multi-currency settings to a file."
+msgstr ""
+
+msgid "Import Multi-currency settings"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "This tool will import all Multi-currency settings from the previously exported file. This action cannot be reversed."
+msgstr ""
+
+#. translators: %d - number of records
+msgid "Multi-currency settings have been reset. Number of records deleted: %d."
+msgstr ""
+
+msgid "There was an error resetting Multi-currency (or it was already reset)."
+msgstr ""
+
+msgid "There was an error exporting Multi-currency settings (or they were reset)."
+msgstr ""
+
+msgid "Settings exported to"
+msgstr ""
+
+msgid "There was an error importing Multi-currency settings."
+msgstr ""
+
+msgid "Settings imported"
+msgstr ""
+
+msgctxt "Widget"
+msgid "Drop-down currency selector."
+msgstr ""
+
+msgctxt "Widget"
+msgid "Currency"
+msgstr ""
+
+msgctxt "Widget"
+msgid "Display format:"
+msgstr ""
+
+msgctxt "Widget"
+msgid "Example:"
+msgstr ""
+
+msgctxt "Widget"
+msgid "Show flag"
+msgstr ""
+
+msgid "WP Rocket"
+msgstr ""
+
+msgid "Note: saving changes clears the WP Rocket file cache."
+msgstr ""
+
+msgid "Set cache mandatory cookie (recommended)"
+msgstr ""
+
+msgid "If checked, no cache will be served until the Multi-currency cookie is set in the visitor's browser."
+msgstr ""
+
+msgid "The order paid in:"
+msgstr ""
+
+msgid "Exchange rate:"
+msgstr ""
+
+#. translators: %1$s - currency; %2$s - order ID.
+msgid "Multi-currency: currency set to %1$s to match the order %2$s"
+msgstr ""
+
+msgid "Attention!"
+msgstr ""
+
+#. translators: %s holds the currency code, e.g., USD, EUR.
+msgid "The currency %s is no longer enabled."
+msgstr ""
+
+msgid "To add it back to the list of currencies, go to the Multi-currency settings."
+msgstr ""
+
+msgid "If you click Update now, the currency will be changed. See the dropdown below."
+msgstr ""
+
+msgid "To change the currency, select it from the dropdown and click Create/Update."
+msgstr ""
+
+#. translators: %s - placeholder for currency.
+msgid "Multi-currency: currency set to %s"
+msgstr ""
+
+msgid "Cascaded changes?"
+msgstr ""
+
+msgid "If there are related subscriptions, their currencies will change accordingly!"
+msgstr ""
+
+msgid "If there are related orders, their currencies will not change!"
+msgstr ""
+
+msgid "This page totals:"
+msgstr ""
+
+msgid "Store Currency"
+msgstr ""
+
+msgctxt "Note about Currencylayer"
+msgid "(existing accounts only)"
+msgstr ""
+
+msgctxt "rate_provider"
+msgid "Fixed Rates"
+msgstr ""
+
+msgid "Thank you for installing the multi-currency extension! We appreciate your business!"
+msgstr ""
+
+#. translators: placeholders for HTML "a" tag linking 'here' to the Support page.
+msgid "Please configure the settings using the instructions below. Should you need help, please contact our technical support by clicking %1$shere%2$s."
+msgstr ""
+
+msgid "Currency Exchange Rates"
+msgstr ""
+
+msgid "To switch between currencies, your website needs to get the exchange rates from one of the service providers."
+msgstr ""
+
+msgid "Alternatively, you can select the FixedRates option and enter the rates manually."
+msgstr ""
+
+#. translators: %1$, %2$ are HTML tags linking "here" to documentation.
+msgid "Please read the instructions %1$shere%2$s."
+msgstr ""
+
+msgid "Service Provider"
+msgstr ""
+
+msgid "Please choose one."
+msgstr ""
+
+msgid "Rates update schedule"
+msgstr ""
+
+msgid "Not applicable to FixedRates"
+msgstr ""
+
+msgid "Currency exchange rates were not retrieved. Additional information may be available in the log."
+msgstr ""
+
+msgid "Rates updated on "
+msgstr ""
+
+msgid "Enabled currencies"
+msgstr ""
+
+msgid "Please specify all currencies you plan to use."
+msgstr ""
+
+#. translators: %s - "Save changes"
+msgid "Then please click the [%s] button at the bottom to continue."
+msgstr ""
+
+msgid "Currencies"
+msgstr ""
+
+msgid "Select all currencies that will be available on your website."
+msgstr ""
+
+msgid "Select currencies"
+msgstr ""
+
+msgid "Fallback currency"
+msgstr ""
+
+msgid "By default, show prices in this currency."
+msgstr ""
+
+msgid "Fixed Rates"
+msgstr ""
+
+msgid "Enter the exchange rate of each currency relative to the US Dollar."
+msgstr ""
+
+msgid "Currency Symbols"
+msgstr ""
+
+msgid "Change the currency symbol. Enter, for example, <code>C$</code> for Canadian Dollars."
+msgstr ""
+
+#. translators: placeholder for the currency symbol.
+msgid "%s symbol"
+msgstr ""
+
+msgctxt "Settings placeholder"
+msgid "Default"
+msgstr ""
+
+msgid "Price Conversion Settings"
+msgstr ""
+
+msgid "Fine-tune the prices after currency conversion."
+msgstr ""
+
+msgid "Example"
+msgstr ""
+
+msgid "product price"
+msgstr ""
+
+msgid "price after conversion"
+msgstr ""
+
+msgid "change the values below to recalculate"
+msgstr ""
+
+msgid "Add a conversion fee (%)"
+msgstr ""
+
+msgid "Enter 2.5 to increase the converted price by 2.5%"
+msgstr ""
+
+msgid "Round up to"
+msgstr ""
+
+msgid "Enter 10 to round 123.45 to 130"
+msgstr ""
+
+msgid "Price charm"
+msgstr ""
+
+msgid "Enter 0.01 to show 50 as 49.99"
+msgstr ""
+
+msgid "Use adaptive rounding?"
+msgstr ""
+
+msgid "Check this box to make the rounding and charming dependent on the price."
+msgstr ""
+
+msgid "See the calculation example above."
+msgstr ""
+
+msgid "\"Raw\" shipping fees conversion"
+msgstr ""
+
+msgid "Do not apply rounding, charming, and fee to the shipping fees."
+msgstr ""
+
+msgid "Price formats"
+msgstr ""
+
+msgid "Here you can change the way the prices are displayed, separately for each currency."
+msgstr ""
+
+#. translators: placeholder for the WooCommerce price format.
+msgid "The default format is <code>%s</code>"
+msgstr ""
+
+#. translators: placeholders will be displayed as-is.
+msgid "The <code>%1$s</code> is the placeholder for the currency symbol. <code>%2$s</code> - for the amount."
+msgstr ""
+
+#. translators: placeholders will be displayed as-is.
+msgid "For example, if you want the currency symbol to go after the amount, you can use the <code>%2$s%1$s</code> format."
+msgstr ""
+
+#. translators: placeholder for the currency symbol.
+msgid "%s price format"
+msgstr ""
+
+msgid "Link currency to language"
+msgstr ""
+
+msgid "If you would like to set the currency <strong>automatically</strong> when the language is switched, please set the \"Language - Currency\" pairs below."
+msgstr ""
+
+msgid "Note: our Currency Selector Widget can be used for the <strong>manual</strong> currency switching, independently of the language. In that case, the below settings will be ignored."
+msgstr ""
+
+msgid "Not linked"
+msgstr ""
+
+#. translators: placeholder for the language name.
+msgid "Currency to use when the language is switched to %s."
+msgstr ""
+
+msgid "To use this option, you need to install and activate one of the supported multilingual plugins:"
+msgstr ""
+
+msgid "If checked, you can enter product prices for each currency."
+msgstr ""
+
+msgid "(Simple and variable products and subscriptions only)"
+msgstr ""
+
+#. translators: %s placeholder for the New product editor
+msgid "\"%s\" feature must be disabled to enter the prices per currency."
+msgstr ""
+
+msgid "Allow custom product pricing for extra currencies"
+msgstr ""
+
+msgid "Disable currency switcher on account and payment pages"
+msgstr ""
+
+msgid "If checked, the currency selector widgets and shortcodes will be hidden on Cart, Checkout and My Account pages."
+msgstr ""
+
+msgid "Lazy-load JS scripts"
+msgstr ""
+
+msgid "Load scripts dynamically to speed-up the page load - recommended for UX and SEO."
+msgstr ""
+
+msgid "Client-side cookies only"
+msgstr ""
+
+msgid "Do not enable this unless asked by Support. Does not work with some page caching plugins!"
+msgstr ""
+
+msgid "View logs"
+msgstr ""
+
+msgid "Log level"
+msgstr ""
+
+msgid "What to write to the log file."
+msgstr ""
+
+msgid "Nothing"
+msgstr ""
+
+msgid "Error conditions"
+msgstr ""
+
+msgid "Informational messages"
+msgstr ""
+
+msgid "Debug-level messages"
+msgstr ""
+
+msgid "Debug with tracing"
+msgstr ""
+
+msgid "Saving changes is not permitted."
+msgstr ""
+
+msgctxt "rounding_table"
+msgid "Original"
+msgstr ""
+
+msgctxt "rounding_table"
+msgid "Converted"
+msgstr ""
+
+msgctxt "rounding_table"
+msgid "With fee"
+msgstr ""
+
+msgctxt "rounding_table"
+msgid "Rounded"
+msgstr ""
+
+msgctxt "rounding_table"
+msgid "With charm"
+msgstr ""
+
+msgctxt "Settings tab title"
+msgid "Multi-currency"
+msgstr ""
+
+msgid "Preferred Currency"
+msgstr ""
+
+msgid "Currency to set active upon login"
+msgstr ""
+
+msgid "TIV Multi-currency"
+msgstr ""
+
+msgid "https://woocommerce.com/products/multi-currency/"
+msgstr ""
+
+msgid "Multi-currency support for WooCommerce"
+msgstr ""
+
+msgid "TIV.NET INC"
+msgstr ""
+
+msgid "https://woocommerce.com/vendor/tiv-net-inc/"
+msgstr ""

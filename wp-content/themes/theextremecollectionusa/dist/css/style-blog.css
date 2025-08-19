@@ -1,0 +1,334 @@
+/*
+==============================
+Page: Blog
+==============================
+*/
+
+
+
+.image-col .post-thumbnail-wrapper a {
+  display: block;
+  min-height: 20vh;
+}
+@media (min-width: 576px) {
+  .image-col .post-thumbnail-wrapper a {
+    min-height: 25vh;
+  }
+}
+@media (min-width: 768px) {
+  .image-col .post-thumbnail-wrapper a {
+    min-height: 30vh;
+  }
+}
+@media (min-width: 992px) {
+  .vertical-position {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  .text-rotation {
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+      transform-origin: right top;
+      text-align: right;
+  }
+  .image-col .post-thumbnail-wrapper {
+    margin-left: 40px;
+  }
+  .title-col {
+    padding-left: 2rem;
+  }
+  .blog-grid .row:nth-child(odd) .title-col {
+    order: 2;
+  }
+  .blog-grid .row:nth-child(odd) .image-col {
+    order: 1;
+  }
+  .blog-grid .row:nth-child(even) .title-col {
+    text-align: right;
+    padding-right: 2rem;
+    padding-left: 0;
+    order: 1;
+  }
+  .blog-grid .row:nth-child(even) .image-col {
+    order: 2;
+  }
+  .blog-grid .row:nth-child(even) .image-col .text-rotation {
+    transform-origin: left top;
+    text-align: left;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .blog-grid .row:nth-child(even) .image-col .vertical-position {
+    right: 0;
+    left: auto;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  .blog-grid .row:nth-child(even) .image-col .post-thumbnail-wrapper {
+    margin-right: 40px;
+    margin-left: 0;
+  }
+  .image-col .post-thumbnail-wrapper a {
+    min-height: 45vh;
+  }
+}
+
+@media (min-width: 1600px) {
+  .image-col .post-thumbnail-wrapper a {
+    min-height: 33vh;
+  }
+}
+/*
+==============================
+Page: Blog
+Section: Pagination
+==============================
+*/
+
+.pagination li::before {
+  content: '|';
+  display: inline-block;
+  margin: 0 10px;
+}
+.pagination li.pagination-chevron-left::before {
+  content: '';
+}
+.pagination-chevron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagination li.active a {
+  color: #E73547;
+}
+
+/*
+==============================
+Page: Single Post - Featured Image
+==============================
+*/
+
+.post-thumbnail-wrapper img {
+  max-width:100%;
+  height: auto;
+  width: 100%;
+}
+
+/*
+==============================
+Page: Single Post - Headers
+==============================
+*/
+
+.entry-title {
+  line-height: 1.3em;
+}
+.entry-content h1 {
+    font-size: 1.2em;
+}
+.entry-content h2 {
+    font-size: 1.1em;
+    margin-bottom:1em;
+}
+.entry-content h3 {
+    font-size: 1em;
+}
+.entry-content h4 {
+    font-size: 1em;
+}
+.entry-content h2,
+.entry-content h3,
+.entry-content h4 {
+  line-height: 1.5em;
+  margin: 1.5em 0;
+}
+
+@media (min-width: 992px) {
+
+  .entry-content h1 {
+    font-size: 1.6em;
+    margin-top: 1.5em;
+  }
+  .entry-content h2,
+  .entry-content h3,
+  .entry-content h4 {
+    margin: 1.5em 0;
+  }
+  .entry-content h2 {
+    font-size: 1.4em;
+  }
+  .entry-content h3 {
+    font-size: 1.2em;
+  }
+  .entry-content h4,
+  .entry-content h5 {
+    font-size: 1em;
+  }
+
+}
+
+/*
+==============================
+Page: Single Post - Images
+==============================
+*/
+
+.entry-content img {
+  margin-top: 1rem;
+  max-width:100%;
+  height:auto;
+}
+.entry-content figure {
+  text-align: center;
+}
+.entry-content figcaption {
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 1rem;
+}
+
+/*
+==============================
+Page: Single Post - Lists
+==============================
+*/
+
+.entry-content ul {
+    margin-left: 20px;
+    margin-bottom: 1em;
+}
+.entry-content ul li {
+    list-style: none;
+    font-size: 1em;
+    margin-bottom: .5em;
+}
+.entry-content ul li::before {
+    content: "-";
+    color: #4A4A4A;
+    padding: 0px 10px 0 0;
+    display: inline-block;
+    margin-left: -1em;
+    margin-top: -7px;
+    vertical-align: middle;
+}
+.entry-content .entry-header ul li::before {
+    content: "";
+    color: #4A4A4A;
+    padding: 0px 10px 0 10px;
+    display: inline-block;
+    margin-left: -1em;
+    margin-top: -7px;
+    vertical-align: middle;
+}
+
+/*
+==============================
+Page: Single Post - Links
+==============================
+*/
+
+.entry-content a,
+.entry-content span a {
+    color: #000;
+    font-weight: 600;
+}
+
+/*
+==============================
+Page: Single Post - Widgets
+==============================
+*/
+
+h2.widget-title {
+  font-size: 1.25em;
+  font-weight: 500;
+  margin-bottom: 1em;
+  font-family: 'Red Hat Display', sans-serif;
+}
+.blog-sidebar .widget {
+    border-top: 2px solid #171717;
+    padding-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+.wp-block-search__button {
+  background: transparent;
+  border: 1px solid #171717;
+  position: relative;
+}
+.wp-block-search__button::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  border: 1px solid #171717;
+  background: #fff;
+  top: -.25rem;
+  left: -.25rem;
+  right: -.25rem;
+  bottom: -.25rem;
+}
+
+/*
+==============================
+Page: Single Post - FAQs
+==============================
+*/
+
+.schema-faq.wp-block-yoast-faq-block {
+  background-color: #f5f5f5;
+  padding: 1.5rem;
+  margin: 2.5rem 0;
+}
+.schema-faq.wp-block-yoast-faq-block strong {
+  display: block;
+  margin-bottom: 0.7rem;
+}
+
+
+.navigation ul.d-flex.list-unstyled li.active a {
+    color: #000;
+}
+.navigation ul.d-flex.list-unstyled li {
+    margin: 0 .5em;
+}
+
+ul.post-categories,
+#categories-2 ul,
+.widget ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.widget .thumbnail_link {
+    height: 120px;
+    width: 100%;
+    display: block;
+    background-position: center center;
+    background-size: cover;
+}
+aside#secondary.widget-area>section.widget {
+    margin-bottom: 3rem;
+}
+.list-unstyled li a,
+.widget.widget_recent_entries ul li a {
+    color: #4A4A4A;
+}
+.input-search {
+    border: solid #000 1px;
+    border-radius: 0;
+}

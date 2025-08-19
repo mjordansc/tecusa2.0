@@ -1,0 +1,15 @@
+/**
+ * Example: styling top menu.
+ */
+
+.menu-item.woomc-shortcode.currency-selector .woocommerce-currency-selector-wrap .ui-widget {
+    cursor: pointer;
+}
+
+.menu-item.woomc-shortcode.currency-selector select {
+    border: none;
+}
+
+.menu-item.woomc-shortcode {
+    padding: 0 .5em;
+}

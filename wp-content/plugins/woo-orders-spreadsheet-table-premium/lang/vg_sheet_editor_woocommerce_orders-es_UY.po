@@ -1,0 +1,245 @@
+# Copyright (C) 2020 WP Sheet Editor
+# This file is distributed under the same license as the WP Sheet Editor - WooCommerce Orders plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Sheet Editor - WooCommerce Orders 1.1.3.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-"
+"orders\n"
+"POT-Creation-Date: 2021-03-18T21:09:29+00:00\n"
+"PO-Revision-Date: 2021-03-22 17:38-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_UY\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+msgid "WP Sheet Editor - WooCommerce Orders"
+msgstr "WP Sheet Editor - Pedidos WooCommerce"
+
+#. Plugin URI of the plugin
+msgid ""
+"https://wpsheeteditor.com/extensions/woocommerce-orders-spreadsheet/?"
+"utm_source=wp-admin&utm_medium=plugins-list&utm_campaign=wc-orders"
+msgstr ""
+
+#. Description of the plugin
+msgid "View all the orders in a spreadsheet and edit the information easily."
+msgstr ""
+"Ver todos los pedidos en una hoja de cálculo y editar la información "
+"fácilmente."
+
+#. Author of the plugin
+msgid "WP Sheet Editor"
+msgstr "WP Sheet Editor"
+
+#. Author URI of the plugin
+msgid ""
+"http://wpsheeteditor.com/?utm_source=wp-admin&utm_medium=plugins-"
+"list&utm_campaign=wc-orders"
+msgstr ""
+
+#: inc/integrations/germanized-for-woocommerce.php:33
+msgid "Germanized : Invoice numbers"
+msgstr "Germanizado : Números de facturas"
+
+#: inc/integrations/germanized-for-woocommerce.php:38
+msgid "Germanized : Invoice date"
+msgstr "Germanizado : Fecha de la factura"
+
+#: inc/integrations/germanized-for-woocommerce.php:44
+msgid "Germanized : Invoice delivery status"
+msgstr "Germanizado : Estado de entrega de la factura"
+
+#: inc/integrations/germanized-for-woocommerce.php:50
+msgid "Germanized : Invoice PDF"
+msgstr "Germanizado : Factura PDF"
+
+#: inc/integrations/germanized-for-woocommerce.php:58
+msgid "Germanized : Invoice status"
+msgstr "Germanizado : Estado de la factura"
+
+#: inc/integrations/germanized-for-woocommerce.php:80
+msgid "Delivered @ %s"
+msgstr "Entregado @ %s"
+
+#: inc/integrations/germanized-for-woocommerce.php:80
+msgid "Not yet delivered"
+msgstr "Aún no se ha entregado"
+
+#: inc/integrations/woocommerce-subscriptions.php:19
+msgid "WooCommerce Subscriptions"
+msgstr "WooCommerce Subscriptions"
+
+#: inc/sheet.php:24
+msgid "Orders"
+msgstr "Pedidos"
+
+#: inc/sheet.php:128 inc/sheet.php:201
+msgid "Recalculate taxes"
+msgstr "Recalcular impuestos"
+
+#: inc/sheet.php:142 inc/sheet.php:150 inc/sheet.php:209
+msgid "Add note"
+msgstr "Agregar nota"
+
+#: inc/sheet.php:154
+msgid "Note type"
+msgstr "Tipo de nota"
+
+#: inc/sheet.php:156
+msgid "Private note"
+msgstr "Nota privada"
+
+#: inc/sheet.php:156
+msgid "Note to customer"
+msgstr "Nota para el cliente"
+
+#: inc/sheet.php:217
+msgid "Delete all the notes from the selected orders"
+msgstr "Borrar todas las notas de los pedidos seleccionados"
+
+#: inc/sheet.php:486
+msgid "Find orders containing these products"
+msgstr "Encontrar los pedidos que contienen estos productos"
+
+#: inc/sheet.php:488
+msgid "It must contain all the products selected"
+msgstr "Debe contener todos los productos seleccionados"
+
+#: inc/sheet.php:489
+msgid "It must contain at lest one product selected"
+msgstr "Debe contener al menos un producto seleccionado"
+
+#: inc/sheet.php:491
+msgid "Select product(s)..."
+msgstr "Seleccione el/los producto/s..."
+
+#: inc/sheet.php:496
+msgid "Registered customer"
+msgstr "Cliente registrado"
+
+#: inc/sheet.php:496
+msgid "Find orders made by specific customers"
+msgstr "Encontrar los pedidos hechos por clientes específicos"
+
+#: inc/sheet.php:497
+msgid "Select..."
+msgstr "Seleccionar..."
+
+#: inc/sheet.php:510 inc/sheet.php:657
+msgid "Order notes"
+msgstr "Notas de pedido"
+
+#: inc/sheet.php:510
+msgid ""
+"Search by order notes.<br/>Search by multiple keywords separating keywords "
+"with a semicolon (;)"
+msgstr ""
+"Buscar por notas de pedido.<br/>Buscar por múltiples palabras clave "
+"separando las palabras clave con un punto y coma (;)"
+
+#: inc/sheet.php:514
+msgid "Order notes don't contains these keywords"
+msgstr "Notas de pedido que no contienen estas palabras claves"
+
+#: inc/sheet.php:514
+msgid ""
+"Search orders where notes dont contains these keywords.<br/>Search by "
+"multiple keywords separating keywords with a semicolon (;)"
+msgstr ""
+"Buscar pedidos donde las notas del pedido no contienen estas palabras "
+"claves.<br/>Buscar por múltiples palabras clave separando las palabras "
+"clave con un punto y coma (;)"
+
+#: inc/sheet.php:561
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: inc/sheet.php:566
+msgid "Total"
+msgstr "Total"
+
+#: inc/sheet.php:571
+msgid "Order note"
+msgstr "Nota de pedido"
+
+#: inc/sheet.php:635
+msgid "Order Details"
+msgstr "Detalles de Pedido"
+
+#: inc/sheet.php:644
+msgid "Tax rate: %s"
+msgstr "Tasa de impuestos: %s"
+
+#: inc/sheet.php:650
+msgid "Line items"
+msgstr "Productos"
+
+#: inc/sheet.php:738
+msgid "Note: %s (Added by %s on %s, Visibility: %s)"
+msgstr "Nota: %s (Agregada por %s el %s, Visibilidad: %s)"
+
+#: inc/sheet.php:738
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/sheet.php:758
+msgid "Product"
+msgstr "Producto"
+
+#: inc/sheet.php:806
+msgid "Enable editing"
+msgstr "Habilitar la edición"
+
+#: inc/sheet.php:809
+msgid ""
+"By default all the cells are readonly for safety reasons, click here if you "
+"want to edit information."
+msgstr ""
+"Por defecto, todas las celdas son de sólo lectura por razones de seguridad, "
+"haz clic aquí si quieres editar la información."
+
+#: inc/sheet.php:816
+msgid "Create order"
+msgstr "Crear pedido"
+
+#: views/welcome-page-content.php:4
+msgid "Thank you for installing our plugin."
+msgstr "Gracias por instalar nuestro plugin."
+
+#: views/welcome-page-content.php:9
+msgid ""
+"Install the plugin: WooCommerce. <a href=\"%s\" target=\"_blank\" class="
+"\"button install-plugin-trigger\">Click here</a>. This is a WooCommerce "
+"extension."
+msgstr ""
+"Instala el plugin: WooCommerce. <a href=\"%s\" target=\"_blank\" class="
+"\"button install-plugin-trigger\">Clic aquí</a>. Esta es una extensión de "
+"WooCommerce."
+
+#: views/welcome-page-content.php:11
+msgid ""
+"You can open the Orders Spreadsheet Now:  <a href=\"%s\" class=\"button"
+"\">Click here</a>"
+msgstr ""
+"Puedes abrir la hoja de cálculo de pedidos ahora:  <a href=\"%s\" class="
+"\"button\">Clic aquí</a>"
+
+#: woocommerce-orders.php:79
+msgid ""
+"Please update the WP Sheet Editor plugin and all its extensions to the "
+"latest version. The features of the plugin \""
+msgstr ""
+"Por favor, actualiza el plugin WP Sheet Editor y todas sus extensiones a la "
+"última versión. Las características del plugin \""
+
+#: woocommerce-orders.php:132
+msgid "My license"
+msgstr "Mi licencia"
+
+#~ msgid "Enter a value"
+#~ msgstr "Ingresa un valor"

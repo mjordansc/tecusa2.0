@@ -1,0 +1,20 @@
+/*
+==============================
+Page: 404
+==============================
+*/
+
+#error-404 .bg-image-regular {
+	height:30vh;
+	background-size: contain;
+}
+@media (min-width:768px) {
+	#error-404 .bg-image-regular {
+		height:70vh;
+	}
+}
+@media (min-width:1600px) {
+	#error-404 .bg-image-regular {
+		height:55vh;
+	}
+}

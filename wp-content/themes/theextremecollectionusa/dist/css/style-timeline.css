@@ -1,0 +1,52 @@
+/*
+==============================
+Feature: Timeline
+==============================
+*/
+
+.vertical-line {
+    border-left: 2px solid #c6c6c6;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    z-index: 1;
+}
+.title-timeline {
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 48px;
+}
+.text-timeline {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 23px;
+}
+.timeline .row:nth-child(2) .col-1 {
+    padding-top: 3;
+}
+
+.timeline .row:nth-child(2) .col-1 .vertical-line {
+    top: 15%;
+}
+
+/*
+==============================
+Media Queries
+==============================
+*/
+
+@media (min-width:992px) {
+
+  .timeline .row:nth-child(2) .col-1 {
+    padding-top: 0 !important;
+  }
+  .timeline .row:nth-child(2) .col-1 .vertical-line {
+    top: 2%;
+  }
+  .timeline .row:nth-child(2) .col-lg-5 {
+    margin-top: -15px;
+  }
+}

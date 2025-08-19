@@ -1,0 +1,524 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Video Background\n"
+"POT-Creation-Date: 2018-05-07 21:30-0700\n"
+"PO-Revision-Date: 2016-03-30 22:31-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: candide-vidbg.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin_premium_notice.php:11
+msgid ""
+"Video Background Pro now plays video backgrounds on supported mobile "
+"devices! <a href=\"http://pushlabs.co/video-background-pro\" rel=\"nofollow"
+"\" target=\"_blank\">Check out Video Background Pro</a>"
+msgstr ""
+
+#: candide-vidbg.php:149
+msgid "Show Advanced Options"
+msgstr ""
+
+#: candide-vidbg.php:150
+msgid "Hide Advanced Options"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: candide-vidbg.php:285 inc/classes/vidbg_siteorigin.php:53
+#: inc/classes/vidbg_wpbakery.php:61 inc/classes/vidbg_wpbakery.php:73
+#: inc/classes/vidbg_wpbakery.php:81 inc/classes/vidbg_wpbakery.php:89
+#: inc/classes/vidbg_wpbakery.php:103 inc/classes/vidbg_wpbakery.php:116
+#: inc/classes/vidbg_wpbakery.php:124 inc/classes/vidbg_wpbakery.php:137
+msgid "Video Background"
+msgstr ""
+
+#: candide-vidbg.php:292
+msgid "Container"
+msgstr ""
+
+#: candide-vidbg.php:293
+msgid ""
+"Please specify the container you would like your video background to be in. "
+"<a href=\"https://pushlabs.co/docs/video-background/#finding-your-container"
+"\" target=\"_blank\">Learn how to find your container.</a>"
+msgstr ""
+
+#: candide-vidbg.php:299 inc/classes/vidbg_siteorigin.php:67
+#: inc/classes/vidbg_wpbakery.php:54
+msgid "Link to .mp4"
+msgstr ""
+
+#: candide-vidbg.php:300
+msgid ""
+"Please specify the link to the .mp4 file. You can either enter a URL or "
+"upload a file.<br>For browser compatability, please enter an .mp4 and .webm "
+"file for video backgrounds."
+msgstr ""
+
+#: candide-vidbg.php:304
+msgid "Upload .mp4 file"
+msgstr ""
+
+#: candide-vidbg.php:309 inc/classes/vidbg_siteorigin.php:76
+#: inc/classes/vidbg_wpbakery.php:66
+msgid "Link to .webm"
+msgstr ""
+
+#: candide-vidbg.php:310
+msgid ""
+"Please specify the link to the .webm file. You can either enter a URL or "
+"upload a file.<br>For browser compatability, please enter an .mp4 and .webm "
+"file for video backgrounds."
+msgstr ""
+
+#: candide-vidbg.php:314
+msgid "Upload .webm file"
+msgstr ""
+
+#: candide-vidbg.php:319
+msgid "Link to fallback image"
+msgstr ""
+
+#: candide-vidbg.php:320
+msgid ""
+"Please specify a link to the fallback image in case the browser does not "
+"support video backgrounds. You can either enter a URL or upload a file."
+msgstr ""
+
+#: candide-vidbg.php:324
+msgid "Upload fallback image"
+msgstr ""
+
+#: candide-vidbg.php:329
+msgid "Overlay"
+msgstr ""
+
+#: candide-vidbg.php:330 inc/classes/vidbg_siteorigin.php:93
+#: inc/classes/vidbg_wpbakery.php:88
+msgid ""
+"Add an overlay over the video. This is useful if your text isn't readable "
+"with a video background."
+msgstr ""
+
+#: candide-vidbg.php:335 candide-vidbg.php:366 candide-vidbg.php:378
+msgid "Off"
+msgstr ""
+
+#: candide-vidbg.php:336 candide-vidbg.php:367 candide-vidbg.php:379
+msgid "On"
+msgstr ""
+
+#: candide-vidbg.php:342 inc/classes/vidbg_siteorigin.php:100
+#: inc/classes/vidbg_wpbakery.php:95
+msgid "Overlay Color"
+msgstr ""
+
+#: candide-vidbg.php:343 inc/classes/vidbg_siteorigin.php:101
+#: inc/classes/vidbg_wpbakery.php:98
+msgid ""
+"If overlay is enabled, a color will be used for the overlay. You can specify "
+"the color here."
+msgstr ""
+
+#: candide-vidbg.php:350 inc/classes/vidbg_siteorigin.php:109
+#: inc/classes/vidbg_wpbakery.php:108
+msgid "Overlay Opacity"
+msgstr ""
+
+#: candide-vidbg.php:351
+msgid ""
+"Specify the opacity of the overlay with the left being mostly transparent "
+"and the right being hardly transparent."
+msgstr ""
+
+#: candide-vidbg.php:360
+msgid "Turn off loop?"
+msgstr ""
+
+#: candide-vidbg.php:361 inc/classes/vidbg_siteorigin.php:119
+#: inc/classes/vidbg_wpbakery.php:123
+msgid ""
+"Turn off the loop for Video Background. Once the video is complete, it will "
+"display the last frame of the video."
+msgstr ""
+
+#: candide-vidbg.php:372 inc/classes/vidbg_siteorigin.php:128
+#: inc/classes/vidbg_wpbakery.php:134
+msgid "Display \"Tap to unmute\" button?"
+msgstr ""
+
+#: candide-vidbg.php:373
+msgid ""
+"Allow your users to interact with the sound of the video background. <a href="
+"\"https://pushlabs.co/docs/video-background/#tap-to-unmute-text\" target="
+"\"_blank\">Learn how to change this text.</a>"
+msgstr ""
+
+#: candide-vidbg.php:385
+msgid ""
+"<a href=\"#vidbg_advanced_options\" class=\"button vidbg-button advanced-"
+"options-button\">Show Advanced options</a>"
+msgstr ""
+
+#: candide-vidbg.php:482
+msgid "Tap to Unmute"
+msgstr ""
+
+#: candide-vidbg.php:540
+msgid "<h2>Video Background</h2>"
+msgstr ""
+
+#: candide-vidbg.php:541
+msgid ""
+"<p>Video background makes it easy to add responsive, great looking video "
+"backgrounds to any element on your website.</p>"
+msgstr ""
+
+#: candide-vidbg.php:542
+msgid "<h3>Getting Started</h3>"
+msgstr ""
+
+#: candide-vidbg.php:543
+msgid "<p>There are four ways to use Video Background"
+msgstr ""
+
+#: candide-vidbg.php:545
+msgid "<li>With the metabox</li>"
+msgstr ""
+
+#: candide-vidbg.php:546
+msgid "<li>With the WPBakery (Visual Composer) integration</li>"
+msgstr ""
+
+#: candide-vidbg.php:547
+msgid "<li>With the SiteOrigin Page Builder integration</li>"
+msgstr ""
+
+#: candide-vidbg.php:548
+msgid "<li>With the shortcode</li>"
+msgstr ""
+
+#: candide-vidbg.php:550
+msgid ""
+"<a href=\"https://pushlabs.co/docs/video-background/\" class=\"button\" "
+"target=\"_blank\">Further Documentation</a>"
+msgstr ""
+
+#: candide-vidbg.php:551
+msgid "<h3>Questions?</h3>"
+msgstr ""
+
+#: candide-vidbg.php:552
+msgid ""
+"<p>If you have any feedback/questions regarding the plugin you can reach me "
+"<a href=\"https://wordpress.org/support/plugin/video-background\" target="
+"\"_blank\">here.</a>"
+msgstr ""
+
+#: candide-vidbg.php:553
+msgid "<h3>Supporting the Plugin</h3>"
+msgstr ""
+
+#: candide-vidbg.php:554
+msgid ""
+"<p>If you like Video Background and want to show your support, consider "
+"purchasing <a href=\"http://pushlabs.co/video-background-pro\" target="
+"\"_blank\">Video Background Pro</a>. It comes with plenty of helpful "
+"features that make your life easier like:</p>"
+msgstr ""
+
+#: candide-vidbg.php:556
+msgid "<li>Mobile video background playback on supported browsers</li>"
+msgstr ""
+
+#: candide-vidbg.php:557
+msgid "<li>YouTube Integration</li>"
+msgstr ""
+
+#: candide-vidbg.php:558
+msgid "<li>Frontend Play/Pause Button Option</li>"
+msgstr ""
+
+#: candide-vidbg.php:559
+msgid "<li>Frontend Volume Button Option</li>"
+msgstr ""
+
+#: candide-vidbg.php:560
+msgid "<li>Overlay Image Textures</li>"
+msgstr ""
+
+#: candide-vidbg.php:561
+msgid "<li>Extensive Documentation</li>"
+msgstr ""
+
+#: candide-vidbg.php:562
+msgid "<li>Video Tutorials</li>"
+msgstr ""
+
+#: candide-vidbg.php:563
+msgid "<li>And Much More!</li>"
+msgstr ""
+
+#: candide-vidbg.php:565
+msgid ""
+"<a href=\"http://pushlabs.co/video-background-pro\" class=\"button button-"
+"primary\" rel=\"nofollow\" target=\"_blank\">Learn More About Video "
+"Background Pro</a>"
+msgstr ""
+
+#: candide-vidbg.php:577
+msgid "<a href=\"options-general.php?page=pushlabs-vidbg\">Getting Started</a>"
+msgstr ""
+
+#: inc/classes/vidbg_siteorigin.php:69 inc/classes/vidbg_wpbakery.php:56
+msgid "Please specify the link to the .mp4 file."
+msgstr ""
+
+#: inc/classes/vidbg_siteorigin.php:77 inc/classes/vidbg_wpbakery.php:68
+msgid "Please specify the link to the .webm file."
+msgstr ""
+
+#: inc/classes/vidbg_siteorigin.php:84 inc/classes/vidbg_wpbakery.php:78
+msgid "Fallback Image"
+msgstr ""
+
+#: inc/classes/vidbg_siteorigin.php:85 inc/classes/vidbg_wpbakery.php:80
+msgid "Please upload a fallback image."
+msgstr ""
+
+#: inc/classes/vidbg_siteorigin.php:92 inc/classes/vidbg_wpbakery.php:86
+msgid "Enable Overlay?"
+msgstr ""
+
+#: inc/classes/vidbg_siteorigin.php:110 inc/classes/vidbg_wpbakery.php:111
+msgid ""
+"Specify the opacity of the overlay. Accepts any value between 0.00-1.00 with "
+"0 being completely transparent and 1 being completely invisible. Ex. 0.30"
+msgstr ""
+
+#: inc/classes/vidbg_siteorigin.php:118 inc/classes/vidbg_wpbakery.php:121
+msgid "Disable Loop?"
+msgstr ""
+
+#: inc/classes/vidbg_siteorigin.php:129 inc/classes/vidbg_wpbakery.php:136
+msgid "Allow your users to interact with the sound of the video background."
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2.php:122
+msgid "Metabox configuration is required to have an ID parameter"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2.php:375
+msgid "Click to toggle"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_Ajax.php:65
+msgid "Please Try Again"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_Ajax.php:155
+msgid "Remove Embed"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_Ajax.php:159
+#, php-format
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_Field.php:1030
+msgid "Add Group"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_Field.php:1031
+msgid "Remove Group"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_Field.php:1053
+#: inc/vendor/cmb2/includes/CMB2_Field.php:1057
+msgid "None"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:86
+#: inc/vendor/cmb2/includes/CMB2_JS.php:119
+msgid "Clear"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:87
+msgid "Default"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:88
+msgid "Select Color"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:89
+msgid "Current Color"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:109
+msgctxt "Valid formatDate string for jquery-ui datepicker"
+msgid "mm/dd/yy"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:110
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:111
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:112
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:113
+msgid ""
+"January, February, March, April, May, June, July, August, September, "
+"October, November, December"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:114
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:115
+msgid "Next"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:116
+msgid "Prev"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:117
+msgid "Today"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:118
+#: inc/vendor/cmb2/includes/CMB2_JS.php:128
+msgid "Done"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:122
+msgid "Choose Time"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:123
+msgid "Time"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:124
+msgid "Hour"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:125
+msgid "Minute"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:126
+msgid "Second"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:127
+msgid "Now"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:129
+msgctxt ""
+"Valid formatting string, as per http://trentrichardson.com/examples/"
+"timepicker/"
+msgid "hh:mm TT"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:135
+msgid "Use this file"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:136
+msgid "Use these files"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:137
+#: inc/vendor/cmb2/includes/CMB2_Types.php:1021
+msgid "Remove Image"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:138
+#: inc/vendor/cmb2/includes/CMB2_Types.php:357
+#: inc/vendor/cmb2/includes/CMB2_Types.php:1040
+msgid "Remove"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:139
+#: inc/vendor/cmb2/includes/CMB2_Types.php:1035
+msgid "File:"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:140
+#: inc/vendor/cmb2/includes/CMB2_Types.php:1038
+msgid "Download"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_JS.php:141
+msgid "Select / Deselect All"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_Types.php:298
+msgid "Add Row"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_Types.php:768
+#: inc/vendor/cmb2/includes/CMB2_Types.php:816
+msgid "No terms"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_Types.php:884
+msgid "Add or Upload Files"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_Types.php:945
+msgid "Add or Upload File"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_hookup.php:120
+msgid ""
+"Term Metadata is a WordPress > 4.4 feature. Please upgrade your WordPress "
+"install."
+msgstr ""
+
+#: inc/vendor/cmb2/includes/CMB2_hookup.php:124
+msgid "Term metaboxes configuration requires a 'taxonomies' parameter"
+msgstr ""
+
+#: inc/vendor/cmb2/includes/helper-functions.php:250
+msgid "Save"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://pushlabs.co/documentation/video-background"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WordPress plugin to easily assign a video background to any element. Awesome."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Push Labs"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://pushlabs.co"
+msgstr ""

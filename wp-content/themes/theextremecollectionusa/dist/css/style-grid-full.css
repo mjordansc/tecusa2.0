@@ -1,0 +1,131 @@
+/*
+==============================
+Page Grid
+Section: Card
+==============================
+*/
+
+.grid-full .card-servicios {
+}
+/*
+==============================
+Page Grid
+Section: Structure
+==============================
+*/
+
+.wrapper.grid-full {
+  padding:0;
+}
+.grid-full .row .col-lg-6 {
+  order:2;
+  padding-left:30px;
+  padding-right:30px;
+}
+.grid-full .row .col-lg-6.px-lg-0 {
+  order:1;
+}
+.grid-full .col-lg-6.px-lg-0 span {
+  font-size:1.3em;
+}
+
+/*
+==============================
+Media Queries
+==============================
+*/
+
+@media (min-width:576px) {
+  .grid-full .row:nth-child(odd) .grid-full-text {
+    padding-left:7%;
+    padding-right:7%;
+  }
+  .grid-full .row:nth-child(even) .grid-full-text {
+    padding-left:7%;
+    padding-right:7%;
+  }
+  .grid-full .row:nth-child(odd) .grid-full-text.grid-second-col-text {
+    padding-left:7%;
+    padding-right:7%;
+  }
+  .grid-full .row:nth-child(even) .grid-full-text.grid-first-col-text {
+    padding-left:7%;
+    padding-right:7%;
+  }
+}
+@media (min-width: 992px) {
+  .grid-full .row:nth-child(odd) .col-lg-6 {
+    order:1;
+  }
+  .grid-full .row:nth-child(odd) .col-lg-6.px-lg-0 {
+    order:2;
+  }
+  .grid-full .row:nth-child(even) .col-lg-6 {
+    order:2;
+  }
+  .grid-full .row:nth-child(even) .col-lg-6.px-lg-0 {
+    order:1;
+  }
+  .grid-full .row:nth-child(odd) .grid-full-text {
+    padding-left:7%;
+    padding-right:4.5rem;
+  }
+  .grid-full .row:nth-child(even) .grid-full-text {
+    padding-left:4.5rem;
+    padding-right:7%;
+  }
+  .grid-full .row:nth-child(odd) .grid-full-text.grid-second-col-text {
+    padding-right:7%;
+    padding-left:4.5rem;
+  }
+  .grid-full .row:nth-child(even) .grid-full-text.grid-first-col-text {
+    padding-right:4.5rem;
+    padding-left:7%;
+  }
+}
+@media (min-width: 1200px) {
+  .grid-full .row:nth-child(odd) .grid-full-text {
+    padding-left:9%;
+  }
+  .grid-full .row:nth-child(even) .grid-full-text {
+    padding-right:9%;
+  }
+  .grid-full .row:nth-child(odd) .grid-full-text.grid-second-col-text {
+    padding-right:9%;
+    padding-left:4.5rem;
+  }
+  .grid-full .row:nth-child(even) .grid-full-text.grid-first-col-text {
+    padding-left:9%;
+  }
+}
+@media (min-width: 1400px) {
+  .grid-full .row:nth-child(odd) .grid-full-text {
+    padding-left:10%;
+  }
+  .grid-full .row:nth-child(even) .grid-full-text {
+    padding-right:11%;
+  }
+  .grid-full .row:nth-child(odd) .grid-full-text.grid-second-col-text {
+    padding-right:11%;
+    padding-left:4.5rem;
+  }
+  .grid-full .row:nth-child(even) .grid-full-text.grid-first-col-text {
+    padding-left:10%;
+  }
+}
+@media (min-width: 1600px) {
+
+  .grid-full .row:nth-child(odd) .grid-full-text {
+    padding-left:17.5%;
+  }
+  .grid-full .row:nth-child(even) .grid-full-text {
+    padding-right:17.5%;
+  }
+  .grid-full .row:nth-child(odd) .grid-full-text.grid-second-col-text {
+    padding-right:17.5%;
+    padding-left:4.5rem;
+  }
+  .grid-full .row:nth-child(even) .grid-full-text.grid-first-col-text {
+    padding-left:17.5%;
+  }
+}

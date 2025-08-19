@@ -1,0 +1,555 @@
+# Copyright (C) TIV.NET INC.
+# This file is distributed under the same license as the WooCommerce Multi-Currency package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Multi-currency\n"
+"Report-Msgid-Bugs-To: support@tiv.net\n"
+"POT-Creation-Date: 2025-04-22 20:44+0000\n"
+"PO-Revision-Date: 2020-11-06 16:16+0000\n"
+"Language: he-IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.4; wp-5.5.3\n"
+
+msgid "WooCommerce Multi-currency"
+msgstr "WooCommerce Multi-currency"
+
+msgid "Multi-currency"
+msgstr "Multi-currency"
+
+msgctxt "Widget"
+msgid "Currency Switcher"
+msgstr "מחליף מטבע"
+
+msgctxt "Widget"
+msgid "Mouse over"
+msgstr ""
+
+msgctxt "Widget"
+msgid "Click"
+msgstr ""
+
+msgid "Rate"
+msgstr "שער מטבע"
+
+#. translators: %1$s - WooCommerce Multi-currency, %2$s - the incompatible plugin name
+msgid "%1$s is incompatible with %2$s."
+msgstr "%1$s אינו תואם ל%2$s"
+
+msgid ""
+"To override the automatic price conversion for this product, put the fixed "
+"price values in the fields below."
+msgstr ""
+"על מנת לדרוס את המרת המחיר האוטומטית של מוצר זה, נא להזין מחירים ידניים "
+"בשדות מטה"
+
+msgid "Multi-currency options"
+msgstr "אפשרויות התוסף "
+
+msgid ""
+"To change the currency of this order, select it from the dropdown and click "
+"Create/Update."
+msgstr ""
+
+msgid "Note: this will only change the currency, not the amounts!"
+msgstr "שימו לב: זה ישנה רק את המטבע. לא את הסכום!"
+
+msgid "To change the amounts, remove the items and add them back."
+msgstr ""
+
+#. translators: %s - WooCommerce Multi-currency.
+msgid "The %s extension is active. Please configure its settings."
+msgstr "שלוחת ה%s פעילה. נא להזין את ההגדרות שלה"
+
+msgid "This plugin is"
+msgid_plural "These plugins are"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid ""
+"not compatible with Multi-currency by TIV.NET and may cause incorrect "
+"payment processing"
+msgstr ""
+
+msgid "Reset Multi-currency settings"
+msgstr "איפוס הגדרות התוסף"
+
+msgid "Reset"
+msgstr "איפוס"
+
+msgid ""
+"This tool will reset all Multi-currency settings to default. This action "
+"cannot be reversed."
+msgstr ""
+"כלי זה יאפס את כל הגדרות התוסף למצב ברירת המחדל. לא ניתן לבטל פעולה זו."
+
+msgid "Export Multi-currency settings"
+msgstr "ייצא את הגדרות התוסף"
+
+msgid "Export"
+msgstr "ייצא"
+
+msgid "This tool will export all Multi-currency settings to a file."
+msgstr "כלי זה יאפשר יצוא של כל הגדרות התוסף לקובץ "
+
+msgid "Import Multi-currency settings"
+msgstr "ייבא הגדרות התוסף"
+
+msgid "Import"
+msgstr "ייבא"
+
+msgid ""
+"This tool will import all Multi-currency settings from the previously "
+"exported file. This action cannot be reversed."
+msgstr ""
+"כלי זה ייָבא את כל הגדרות התוסף מתוך קובץ שיֻצָּא בעבר. לא ניתן לבטל פעולה זו."
+
+#. translators: %d - number of records
+msgid "Multi-currency settings have been reset. Number of records deleted: %d."
+msgstr "הגדרות התוסף אופסו. נמחקו %d רשומות."
+
+msgid "There was an error resetting Multi-currency (or it was already reset)."
+msgstr "אירעה שגיאה באיפוס התוסף (או, ייתכן וכבר בוצע איפוס)"
+
+msgid ""
+"There was an error exporting Multi-currency settings (or they were reset)."
+msgstr "אירעה שגיאה בנסיון לייצא את הגדרות התוסף (או ייתכן שהן אופסו)"
+
+msgid "Settings exported to"
+msgstr "ההגדרות ייוצאו ל"
+
+msgid "There was an error importing Multi-currency settings."
+msgstr "אירעה שגיאה בנסיון לייבא את הגדרות התוסף."
+
+msgid "Settings imported"
+msgstr "ההגדרות יובאו"
+
+msgctxt "Widget"
+msgid "Drop-down currency selector."
+msgstr "בוחר המטבע בתפריט נפתח."
+
+msgctxt "Widget"
+msgid "Currency"
+msgstr "מטבע"
+
+msgctxt "Widget"
+msgid "Display format:"
+msgstr "הצג פורמט:"
+
+msgctxt "Widget"
+msgid "Example:"
+msgstr "דוגמה"
+
+msgctxt "Widget"
+msgid "Show flag"
+msgstr "הצג דגל"
+
+msgid "WP Rocket"
+msgstr "WP Rocket"
+
+msgid "Note: saving changes clears the WP Rocket file cache."
+msgstr "שימו לב: שמירת השינויים מנקה את ה-WP Rocket file cache של וורדפרס"
+
+msgid "Set cache mandatory cookie (recommended)"
+msgstr ""
+
+msgid ""
+"If checked, no cache will be served until the Multi-currency cookie is set "
+"in the visitor's browser."
+msgstr ""
+
+msgid "The order paid in:"
+msgstr "ההזמנה שולמה ב:"
+
+msgid "Exchange rate:"
+msgstr "שער ההמרה של המטבע:"
+
+#. translators: %1$s - currency; %2$s - order ID.
+msgid "Multi-currency: currency set to %1$s to match the order %2$s"
+msgstr ""
+
+msgid "Attention!"
+msgstr ""
+
+#. translators: %s holds the currency code, e.g., USD, EUR.
+msgid "The currency %s is no longer enabled."
+msgstr ""
+
+msgid ""
+"To add it back to the list of currencies, go to the Multi-currency settings."
+msgstr ""
+
+msgid ""
+"If you click Update now, the currency will be changed. See the dropdown "
+"below."
+msgstr ""
+
+msgid ""
+"To change the currency, select it from the dropdown and click Create/Update."
+msgstr ""
+
+#. translators: %s - placeholder for currency.
+msgid "Multi-currency: currency set to %s"
+msgstr ""
+
+msgid "Cascaded changes?"
+msgstr "שינויים מדורגים?"
+
+msgid ""
+"If there are related subscriptions, their currencies will change accordingly!"
+msgstr ""
+"אם קיימות מנויים קשורים, המטבעות שלהם ישתנו בהתאם כאשר מטבע ההזמנה ישתנה!"
+
+msgid "If there are related orders, their currencies will not change!"
+msgstr "אם קיימות הזמנות קשורות, המטבעות שלהן לא ישתנו!"
+
+msgid "This page totals:"
+msgstr "סיכום העמוד הנוכחי:"
+
+msgid "Store Currency"
+msgstr "מטבע החנות"
+
+msgctxt "Note about Currencylayer"
+msgid "(existing accounts only)"
+msgstr ""
+
+msgctxt "rate_provider"
+msgid "Fixed Rates"
+msgstr ""
+
+msgid ""
+"Thank you for installing the multi-currency extension! We appreciate your "
+"business!"
+msgstr "תודה שהתקנת את תוסף Multi-Currency! אנו מעריכים את העסק שלך!"
+
+#. translators: placeholders for HTML "a" tag linking 'here' to the Support page.
+msgid ""
+"Please configure the settings using the instructions below. Should you need "
+"help, please contact our technical support by clicking %1$shere%2$s."
+msgstr ""
+"נא לבצע את ההגדרות תוך שימוש בהוראות הכתובות מטה. במידה ותזדקקו לעזרה, אנא "
+"צרו קשר עם התמיכה הטכנית שלנו על ידי הקלקה %1$sכאן%2$s."
+
+msgid "Currency Exchange Rates"
+msgstr "שערי מטבע"
+
+msgid ""
+"To switch between currencies, your website needs to get the exchange rates "
+"from one of the service providers."
+msgstr ""
+"על מנת לעבור ממטבע למטבע, על האתר שלך לקבל את שערי המטבע מאחד מספקי השירות."
+
+msgid ""
+"Alternatively, you can select the FixedRates option and enter the rates "
+"manually."
+msgstr ""
+"באפשרותכם לבחור את אופציית ה-שערי מטבע קבועים ולהזין את שערי המטבע באופן ידני"
+
+#. translators: %1$, %2$ are HTML tags linking "here" to documentation.
+msgid "Please read the instructions %1$shere%2$s."
+msgstr "אנא קראו את ההוראות %1$sכאן%2$s."
+
+msgid "Service Provider"
+msgstr "ספק השירות"
+
+msgid "Please choose one."
+msgstr "נא לבחור את אחת האפשרויות"
+
+msgid "Rates update schedule"
+msgstr "תזמון עדכון השערים"
+
+msgid "Not applicable to FixedRates"
+msgstr "אינו בר ביצוע לשערי מטבע קבועים"
+
+msgid ""
+"Currency exchange rates were not retrieved. Additional information may be "
+"available in the log."
+msgstr "שערי מטבע לא הוחזרו. מידע נוסף עשוי להופיע בקובץ היומן (לוג)"
+
+msgid "Rates updated on "
+msgstr ""
+
+msgid "Enabled currencies"
+msgstr "מטבעות פעילים"
+
+msgid "Please specify all currencies you plan to use."
+msgstr "אנא הגדירו את כל המטבעות בהם אתם מעוניינים להתשמש."
+
+#. translators: %s - "Save changes"
+msgid "Then please click the [%s] button at the bottom to continue."
+msgstr "כעת נא להקליק על כפתור [%s] המופיע מטה על מנת להמשיך"
+
+msgid "Currencies"
+msgstr "מטבעות"
+
+msgid "Select all currencies that will be available on your website."
+msgstr "בחר/י בכל המטבעות שיהיו זמינים באתר שלך"
+
+msgid "Select currencies"
+msgstr "בחר/י מטבעות"
+
+msgid "Fallback currency"
+msgstr "מטבע נפילה"
+
+msgid "By default, show prices in this currency."
+msgstr "כברירת מחדל, הצג מחירים במטבע זה."
+
+msgid "Fixed Rates"
+msgstr "שערי מטבע קבועים"
+
+msgid "Enter the exchange rate of each currency relative to the US Dollar."
+msgstr "הזן את שער ההמרה של כל מטבע באופן יחסי לשער הדולר האמריקאי"
+
+msgid "Currency Symbols"
+msgstr "סמלי המטבע"
+
+msgid ""
+"Change the currency symbol. Enter, for example, <code>C$</code> for Canadian "
+"Dollars."
+msgstr "שנו את סמל המטבע. למשל, הזינו <code>C$</code> עבור דולר קנדי"
+
+#. translators: placeholder for the currency symbol.
+msgid "%s symbol"
+msgstr "סמל %s"
+
+msgctxt "Settings placeholder"
+msgid "Default"
+msgstr "ברירת מחדל"
+
+msgid "Price Conversion Settings"
+msgstr "הגדרות המרת  מחיר"
+
+msgid "Fine-tune the prices after currency conversion."
+msgstr "כוונן את המחירים לאחר המרת המטבע"
+
+msgid "Example"
+msgstr "דוגמה"
+
+msgid "product price"
+msgstr "מחיר מוצר"
+
+msgid "price after conversion"
+msgstr "המחיר לאחר ההמרה"
+
+msgid "change the values below to recalculate"
+msgstr "הזינו את הערכים שלהלן על מנת לחשב מחדש"
+
+msgid "Add a conversion fee (%)"
+msgstr "הוסף שער המרה (%)"
+
+msgid "Enter 2.5 to increase the converted price by 2.5%"
+msgstr "הזן 2.5 על מנת להגדיל את המחיר המומר ב-2.5%"
+
+msgid "Round up to"
+msgstr "לעגל כלפי מעלה ל"
+
+msgid "Enter 10 to round 123.45 to 130"
+msgstr "הזן 10 על מנת לעגל 123.45 ל-130"
+
+msgid "Price charm"
+msgstr "תמחור פסיכולוגי"
+
+msgid "Enter 0.01 to show 50 as 49.99"
+msgstr "הזן 0.01 על מנת להציג 50 כ-49.99"
+
+msgid "Use adaptive rounding?"
+msgstr ""
+
+msgid ""
+"Check this box to make the rounding and charming dependent on the price."
+msgstr ""
+
+msgid "See the calculation example above."
+msgstr ""
+
+msgid "\"Raw\" shipping fees conversion"
+msgstr ""
+
+msgid "Do not apply rounding, charming, and fee to the shipping fees."
+msgstr ""
+
+msgid "Price formats"
+msgstr "תבניות מחיר"
+
+msgid ""
+"Here you can change the way the prices are displayed, separately for each "
+"currency."
+msgstr ""
+"כאן תוכלו לשנות את האופן בו מחירים מוצגים, הן בנפרד והן עבור כל מטבע בנפרד"
+
+#. translators: placeholder for the WooCommerce price format.
+msgid "The default format is <code>%s</code>"
+msgstr "תבנית ברירת המחדל הינה <code>%s</code>"
+
+#. translators: placeholders will be displayed as-is.
+msgid ""
+"The <code>%1$s</code> is the placeholder for the currency symbol. <code>"
+"%2$s</code> - for the amount."
+msgstr ""
+"ה<code>%1$s</code> מהווה את ציון המיקום של סימן המטבע. <code>%2$s</code> - "
+"עבור הסכום"
+
+#. translators: placeholders will be displayed as-is.
+msgid ""
+"For example, if you want the currency symbol to go after the amount, you can "
+"use the <code>%2$s%1$s</code> format."
+msgstr ""
+"למשל, אם תרצו שסמל המטבע יופיע לאחר הסכום, תוכלו להתשמש בתבנית <code>%2$s"
+"%1$s</code>"
+
+#. translators: placeholder for the currency symbol.
+msgid "%s price format"
+msgstr "%s תבנית מחיר"
+
+msgid "Link currency to language"
+msgstr "קשר את המטבע לשפה הנבחרת"
+
+msgid ""
+"If you would like to set the currency <strong>automatically</strong> when "
+"the language is switched, please set the \"Language - Currency\" pairs below."
+msgstr ""
+"במידה ותרצו להגדיר את המטבע <strong>באופן אוטומטי</strong> כאשר שפה מומרת, "
+"בבקשה הגדירו את זוגות ה-\"שפה - מטבע\" שלהלן"
+
+msgid ""
+"Note: our Currency Selector Widget can be used for the <strong>manual</"
+"strong> currency switching, independently of the language. In that case, the "
+"below settings will be ignored."
+msgstr ""
+"שימו לב: ווידג'ט בוחש השפות שלנו ניתן לשימוש עבור בוחר המטבע <strong>הידני</"
+"strong> שלנו, ללא תלות בשפה המוצגת. במקרה כזה, ההגדרות המופיעות מטה לא יחולו."
+
+msgid "Not linked"
+msgstr "אינו מקושר"
+
+#. translators: placeholder for the language name.
+msgid "Currency to use when the language is switched to %s."
+msgstr "המטבע שיהיה בשימוש כאשר בוחרים בשפה ה  %s"
+
+msgid ""
+"To use this option, you need to install and activate one of the supported "
+"multilingual plugins:"
+msgstr ""
+"על מנת להתשמש באפשרות זו, יהיה עליך להתקין ולהפעיל את אחד מתוספי התרגום "
+"הנתמכים:"
+
+msgid "If checked, you can enter product prices for each currency."
+msgstr "במידה ומסומן, תוכלו להזין מחירי מוצרים עבור כל מטבע"
+
+msgid "(Simple and variable products and subscriptions only)"
+msgstr "(מוצרים פשוטים ומוצרים וריאביליים בלבד)"
+
+#. translators: %s placeholder for the New product editor
+msgid "\"%s\" feature must be disabled to enter the prices per currency."
+msgstr ""
+
+msgid "Allow custom product pricing for extra currencies"
+msgstr "אפשר/י תמחור ידני עבור מטבעות נוספים"
+
+msgid "Disable currency switcher on account and payment pages"
+msgstr ""
+
+msgid ""
+"If checked, the currency selector widgets and shortcodes will be hidden on "
+"Cart, Checkout and My Account pages."
+msgstr ""
+
+msgid "Lazy-load JS scripts"
+msgstr ""
+
+msgid ""
+"Load scripts dynamically to speed-up the page load - recommended for UX and "
+"SEO."
+msgstr ""
+
+msgid "Client-side cookies only"
+msgstr "ניקוי קוקיז (cookies) בצד הלקוח בלבד"
+
+msgid ""
+"Do not enable this unless asked by Support. Does not work with some page "
+"caching plugins!"
+msgstr ""
+"לא להפעיל את זה אלא אם נדרש ע\"י התמיכה. אינו פועל עם כמה תוספים המשפיעים על "
+"הקאש!"
+
+msgid "View logs"
+msgstr "צפיה ביומנים (לוג)"
+
+msgid "Log level"
+msgstr "רמת היומן (לוג)"
+
+msgid "What to write to the log file."
+msgstr "מה לתעד בקובץ היומן (לוג)"
+
+msgid "Nothing"
+msgstr "כלום"
+
+msgid "Error conditions"
+msgstr "תנאי שגיאה"
+
+msgid "Informational messages"
+msgstr "הודעות אינפורמטיביות"
+
+msgid "Debug-level messages"
+msgstr "הודעות ברמת דיבאג"
+
+msgid "Debug with tracing"
+msgstr "בצע דיבאג ע\"י מעקב"
+
+msgid "Saving changes is not permitted."
+msgstr "שמירת השינויים אינה אפשרית"
+
+msgctxt "rounding_table"
+msgid "Original"
+msgstr ""
+
+msgctxt "rounding_table"
+msgid "Converted"
+msgstr ""
+
+msgctxt "rounding_table"
+msgid "With fee"
+msgstr ""
+
+msgctxt "rounding_table"
+msgid "Rounded"
+msgstr ""
+
+msgctxt "rounding_table"
+msgid "With charm"
+msgstr ""
+
+msgctxt "Settings tab title"
+msgid "Multi-currency"
+msgstr "Multi-currency"
+
+msgid "Preferred Currency"
+msgstr "המטבע המועדף"
+
+msgid "Currency to set active upon login"
+msgstr "המטבע יהפוך לפעיל בעת התחברות לאתר"
+
+msgid "TIV Multi-currency"
+msgstr "TIV Multi-currency"
+
+msgid "https://woocommerce.com/products/multi-currency/"
+msgstr "https://woocommerce.com/products/multi-currency/"
+
+msgid "Multi-currency support for WooCommerce"
+msgstr "תמיכת התוסף עבור ווקומרס"
+
+msgid "TIV.NET INC"
+msgstr "TIV.NET INC"
+
+msgid "https://woocommerce.com/vendor/tiv-net-inc/"
+msgstr "https://woocommerce.com/vendor/tiv-net-inc/"
+
+msgid ""
+"Provides support for multiple currencies in WooCommerce store by making "
+"different cache snapshots for different currencies."
+msgstr ""
+"מספק תמיכה עבור ריבוי מטבעות בחנות ווקומרס ע\"י יצירת תמונות מטמון שונות "
+"למטבעות שונים"

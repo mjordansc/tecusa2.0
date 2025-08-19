@@ -1,0 +1,399 @@
+/*
+==============================
+Page: Taxonomies
+Mobile and Desktop Sections
+==============================
+*/
+
+.taxonomy-sidebar .widget_aws_widget,
+.taxonomy-sidebar .widget_product_tag_cloud,
+.taxonomy-sidebar .widget_price_filter,
+.woocommerce-result-count,
+.woocommerce-ordering {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .taxonomy-sidebar .widget_aws_widget,
+  .taxonomy-sidebar .widget_product_tag_cloud,
+  .taxonomy-sidebar .widget_price_filter {
+    display: block;
+  }
+  .taxonomy-sidebar {
+    margin-top: 8px;
+    padding-right: 40px;
+  }
+}
+
+/*
+==============================
+Page: Taxonomies
+Section: Ordering
+==============================
+*/
+/*
+.woocommerce-ordering {
+  display: none
+}
+
+@media (min-width: 992px) {
+  .woocommerce-ordering {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    justify-content: flex-end;
+  }
+}
+*/
+
+/*
+==============================
+Page: Taxonomies
+Section: Filter Price for Mobile
+==============================
+*/
+
+.filter-dropdown {
+  border-bottom: 2px solid #171717;
+  font-size: 1.3em;
+  width: 100%;
+  display: block;
+  padding-bottom: 15px;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.filter-dropdown::after {
+  content: '';
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  display: inline-block;
+  border-bottom: 2px solid #171717;
+  border-right: 2px solid #171717;
+  height: 10px;
+  width: 10px;
+  transform: rotate(45deg);
+}
+.filter-dropdown.dropdownopen {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+.filter-dropdown.dropdownopen::after {
+  transform: rotate(-135deg);
+}
+.taxonomy-sidebar .widget.widget_price_filter.show {
+  display: block;
+  border-top: 0;
+}
+/*
+==============================
+Page: Taxonomies
+Section: Widget Border
+==============================
+*/
+
+.taxonomy-sidebar .widget {
+  border-top: 2px solid #171717;
+  padding-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+/*
+==============================
+Page: Taxonomies
+Section: Widget Titles
+==============================
+*/
+
+.taxonomy-sidebar .widgettitle,
+.wp-block-search__label {
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+@media (min-width: 992px) {
+
+}
+
+/*
+==============================
+Page: Taxonomies
+Section: Widget Button
+==============================
+*/
+
+.taxonomy-sidebar button[type="submit"] {
+  background: none;
+  border: 1px solid #171717;
+  position: relative;
+  min-width: 120px;
+  height: 45px;
+  color: #171717;
+}
+.taxonomy-sidebar button[type="submit"]::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  border: 1px solid #171717;
+  background: #fff;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+}
+.taxonomy-sidebar button[type="submit"]:hover {
+  background: #171717;
+  color: #fff;
+  transition: all 700ms ease;
+  -webkit-transition: all 700ms ease;
+  -moz-transition: all 700ms ease;
+  -ms-transition: all 700ms ease;
+  -o-transition: all 700ms ease;
+}
+
+/*
+==============================
+Page: Taxonomies
+Section: Price filter
+==============================
+*/
+
+.taxonomy-sidebar .widget_price_filter .ui-slider .ui-slider-handle,
+.taxonomy-sidebar .widget_price_filter .ui-slider .ui-slider-range {
+  background: #171717;
+}
+
+.taxonomy-sidebar .widget_price_filter .ui-slider .ui-slider-handle {
+  margin-left: -0.2em;
+  border-radius: 100%;
+  margin-top: -0.3em;
+}
+
+.taxonomy-sidebar .widget_price_filter .ui-slider .ui-slider-handle:last-child {
+  margin-left: -0.9em;
+}
+
+.taxonomy-sidebar .widget_price_filter .ui-slider .ui-slider-handle {
+  margin-left: -0.2em;
+}
+
+.taxonomy-sidebar .widget_price_filter .ui-slider-horizontal {
+  height: 0.3em;
+}
+
+/*
+==============================
+Page: Taxonomies
+Section: Tag Cloud
+==============================
+*/
+
+.tag-cloud-link {
+  font-family: 'Lemon Milk', sans-serif;
+  background-color: #EB5D55;
+  color: #fff;
+  padding: 4px 6px;
+  font-weight: 400;
+  font-size: 0.8rem !important;
+  border: 1px solid #EB5D55;
+}
+
+.tag-cloud-link:hover {
+  background-color: #fff;
+  color: #EB5D55;
+  border: 1px solid #EB5D55;
+  opacity: 100%;
+  transition: all 700ms ease;
+  -webkit-transition: all 700ms ease;
+  -moz-transition: all 700ms ease;
+  -ms-transition: all 700ms ease;
+  -o-transition: all 700ms ease;
+}
+
+/*
+==============================
+Page: Taxonomies
+Section: Search
+==============================
+*/
+
+.taxonomy-sidebar .wp-block-search__inside-wrapper {
+  display:block;
+}
+.taxonomy-sidebar input[type="search"] {
+  margin-bottom: 1rem;
+}
+.taxonomy-sidebar .wp-block-search__button {
+  margin-left: 0;
+}
+
+
+/*
+==============================
+Page: Taxonomies
+Section: Content Product
+==============================
+*/
+
+.products {
+  text-align: center;
+}
+.products .product img {
+  margin: 0 auto;
+}
+.woocommerce-loop-product__title {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.woocommerce-Price-amount {
+  font-weight: 600;
+  margin: 0rem 0 1.5rem;
+  display: block;
+}
+.products .button.product_type_variable.add_to_cart_button,
+.products .button.product_type_variable,
+.products .button.product_type_simple.add_to_cart_button {
+  display: flex;
+  border: 1px solid #171717;
+  width: 60%;
+  margin: 0 auto;
+}
+.products .button.product_type_variable.add_to_cart_button::before,
+.products .button.product_type_simple.add_to_cart_button::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  border: 1px solid #171717;
+  background: #fff;
+  top: -0.25rem;
+  left: -0.25rem;
+  right: -0.25rem;
+  bottom: -0.25rem;
+}
+.products .button.product_type_variable.add_to_cart_button:hover,
+.products .button.product_type_simple.add_to_cart_button:hover {
+  color: #171717;
+  border: 1px solid #171717;
+  background-color: #fff;
+  opacity: 100%;
+}
+.products .button.product_type_variable.add_to_cart_button:focus,
+.products .button.product_type_simple.add_to_cart_button:focus,
+.products .button.product_type_variable.add_to_cart_button:active,
+.products .button.product_type_simple.add_to_cart_button:active {
+  color: #fff;
+}
+.woocommerce ul.products li.product a img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  padding: 0;
+  margin: 0 auto;
+  max-height: 100%;
+}
+.woocommerce-loop-product__link {
+  display: block;
+}
+/*.woocommerce ul.products li.product a img:nth-of-type(2) {
+  display: none;
+}
+.woocommerce ul.products li.product a.woocommerce-loop-product__link:hover img:nth-of-type(2) {
+  display: block
+}
+.woocommerce ul.products li.product a.woocommerce-loop-product__link:hover img:nth-of-type(1) {
+  display: none;
+}*/
+.added_to_cart.wc-forward {
+  display: none;
+}
+
+
+#more-categories .col-6:last-child {
+  display:none;
+}
+@media (min-width: 576px) {
+  #more-categories .col-6:last-child {
+    display:block;
+  }
+}
+
+
+.woocommerce-LoopProduct-link.woocommerce-loop-product__link {
+  position: relative;
+}
+.onsale {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #EB5D55;
+  display: block;
+  padding: 5px;
+  font-family: 'Lemon Milk', sans-serif;
+  color: #fff;
+  font-size: 0.85em;
+}
+
+
+
+li.product .price {
+  display: flex;
+  align-items: normal;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 1rem;
+}
+li.product .price ins {
+  color: #EB5D55;
+}
+
+li.product .badge-top-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #fff;
+  color: #222;
+  padding: 10px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  max-width: 90px;
+}
+
+li.product .badge-bottom-img {
+  position: absolute;
+  bottom: 29.4%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255,255,255,0.5);
+  color: #222;
+  padding: 10px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  width: 100%;
+  z-index: 99;
+}
+
+li.product .badge-under-price {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #EB5D55;
+  padding: 10px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+@media (min-width: 992px) {
+  li.product .badge-top-left {
+    max-width: 150px;
+  }
+  li.product .badge-bottom-img {
+    bottom: 16%;
+  }
+}

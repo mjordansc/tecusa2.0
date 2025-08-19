@@ -1,0 +1,589 @@
+# Copyright (C) TIV.NET INC.
+# This file is distributed under the same license as the WooCommerce Multi-Currency package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Multi-currency\n"
+"Report-Msgid-Bugs-To: support@tiv.net\n"
+"POT-Creation-Date: 2025-04-22 20:44+0000\n"
+"PO-Revision-Date: 2024-11-28 15:04+0000\n"
+"Last-Translator: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.14; wp-6.7.1\n"
+
+msgid "WooCommerce Multi-currency"
+msgstr "Мультивалютность для WooCommerce"
+
+msgid "Multi-currency"
+msgstr "Мультивалютность"
+
+msgctxt "Widget"
+msgid "Currency Switcher"
+msgstr "Переключатель валют"
+
+msgctxt "Widget"
+msgid "Mouse over"
+msgstr "Наведение мыши"
+
+msgctxt "Widget"
+msgid "Click"
+msgstr "Клик"
+
+msgid "Rate"
+msgstr "Курс"
+
+#. translators: %1$s - WooCommerce Multi-currency, %2$s - the incompatible plugin name
+msgid "%1$s is incompatible with %2$s."
+msgstr "Плагин %1$s не совместим с %2$s."
+
+msgid ""
+"To override the automatic price conversion for this product, put the fixed "
+"price values in the fields below."
+msgstr ""
+"Вы можете игнорировать курсы валют для этого товара и ввести цены в каждой "
+"валюте вручную."
+
+msgid "Multi-currency options"
+msgstr "Настройки мультивалютности"
+
+msgid ""
+"To change the currency of this order, select it from the dropdown and click "
+"Create/Update."
+msgstr ""
+"Чтобы изменить валюту этого заказа, выберите ее в выпадающем списке и "
+"нажмите кнопку Создать/Обновить."
+
+msgid "Note: this will only change the currency, not the amounts!"
+msgstr "Внимание: изменится только код валюты. Сумма к оплате не изменится!"
+
+msgid "To change the amounts, remove the items and add them back."
+msgstr ""
+"Чтобы изменить цены, нужно временно удалить товары и добавить их снова."
+
+#. translators: %s - WooCommerce Multi-currency.
+msgid "The %s extension is active. Please configure its settings."
+msgstr "Расширение %s активно. Пожалуйста, настройте его параметры."
+
+msgid "This plugin is"
+msgid_plural "These plugins are"
+msgstr[0] "Использование этого плагина"
+msgstr[1] "Использование этих плагинов"
+msgstr[2] "Использование этих плагинов"
+
+msgid ""
+"not compatible with Multi-currency by TIV.NET and may cause incorrect "
+"payment processing"
+msgstr ""
+"совместно с Мультивалютностью TIV.NET может привести к ошибкам при оплате "
+"заказа"
+
+msgid "Reset Multi-currency settings"
+msgstr "Сброс настроек мультивалютности"
+
+msgid "Reset"
+msgstr "Сбросить"
+
+msgid ""
+"This tool will reset all Multi-currency settings to default. This action "
+"cannot be reversed."
+msgstr ""
+"Все настройки мультивалютности будут сброшены. Не забудьте сделать резервное "
+"копирование."
+
+msgid "Export Multi-currency settings"
+msgstr "Экспорт настроек мультивалютности"
+
+msgid "Export"
+msgstr "Экспортировать"
+
+msgid "This tool will export all Multi-currency settings to a file."
+msgstr ""
+"Этот инструмент будет экспортировать все мультивалютные настройки в файл."
+
+msgid "Import Multi-currency settings"
+msgstr "Импорт  настроек мультивалютности"
+
+msgid "Import"
+msgstr "Импортировать"
+
+msgid ""
+"This tool will import all Multi-currency settings from the previously "
+"exported file. This action cannot be reversed."
+msgstr ""
+"Этот инструмент будет импортировать все мультивалютные настройки из ранее "
+"экспортированного файла. Внимание: откатка не возможна."
+
+#. translators: %d - number of records
+msgid "Multi-currency settings have been reset. Number of records deleted: %d."
+msgstr ""
+"Настройки мультивалютности были сброшены. Количество записей, удаленных из "
+"базы данных: %d."
+
+msgid "There was an error resetting Multi-currency (or it was already reset)."
+msgstr ""
+"Произошла ошибка сброса настроек мультивалютности, или настройки уже "
+"сброшены."
+
+msgid ""
+"There was an error exporting Multi-currency settings (or they were reset)."
+msgstr ""
+"Произошла ошибка экспорта мультивалютных настроек (или они были сброшены)."
+
+msgid "Settings exported to"
+msgstr "Настройки сохранены в"
+
+msgid "There was an error importing Multi-currency settings."
+msgstr "Произошла ошибка импорта мультивалютных настроек."
+
+msgid "Settings imported"
+msgstr "Настройки импортированы"
+
+msgctxt "Widget"
+msgid "Drop-down currency selector."
+msgstr "Выпадающее меню выбора валюты."
+
+msgctxt "Widget"
+msgid "Currency"
+msgstr "Валюта"
+
+msgctxt "Widget"
+msgid "Display format:"
+msgstr "Формат списка валют:"
+
+msgctxt "Widget"
+msgid "Example:"
+msgstr "Пример:"
+
+msgctxt "Widget"
+msgid "Show flag"
+msgstr "Показывать флаги"
+
+msgid "WP Rocket"
+msgstr "WP Rocket"
+
+msgid "Note: saving changes clears the WP Rocket file cache."
+msgstr "Внимание: при сохранении настроек будет очищен кэш WP Rocket."
+
+msgid "Set cache mandatory cookie (recommended)"
+msgstr ""
+"Установить обязательное значение cookie для кэширования (рекомендуется)"
+
+msgid ""
+"If checked, no cache will be served until the Multi-currency cookie is set "
+"in the visitor's browser."
+msgstr ""
+"Кэширование страниц не будет производиться до тех пор, пока  Multi-currency "
+"cookie не присутствует в браузере посетителя."
+
+msgid "The order paid in:"
+msgstr "Заказ оплачен в:"
+
+msgid "Exchange rate:"
+msgstr "Обменный курс:"
+
+#. translators: %1$s - currency; %2$s - order ID.
+msgid "Multi-currency: currency set to %1$s to match the order %2$s"
+msgstr ""
+"Multi-currency: валюта установлена в %1$s, чтобы совпадала с валютой заказа "
+"%2$s"
+
+msgid "Attention!"
+msgstr "Внимание!"
+
+#. translators: %s holds the currency code, e.g., USD, EUR.
+msgid "The currency %s is no longer enabled."
+msgstr "Валюта %s отсутствует в списке валют сайта."
+
+msgid ""
+"To add it back to the list of currencies, go to the Multi-currency settings."
+msgstr "Валюту можно добавить в настройках расширения Multi-currency."
+
+msgid ""
+"If you click Update now, the currency will be changed. See the dropdown "
+"below."
+msgstr "При сохранениеи страницы валюта будет изменена. Смотри список ниже."
+
+msgid ""
+"To change the currency, select it from the dropdown and click Create/Update."
+msgstr "Чтобы изменить валюту, выберите ее из списка и сохраните страницу."
+
+#. translators: %s - placeholder for currency.
+msgid "Multi-currency: currency set to %s"
+msgstr "Multi-currency: валюта установлена в $s"
+
+msgid "Cascaded changes?"
+msgstr "Каскадные изменения?"
+
+msgid ""
+"If there are related subscriptions, their currencies will change accordingly!"
+msgstr ""
+"Если у заказа есть подписки, их валюты будут изменены соответствующим "
+"образом при изменении валюты заказа!"
+
+msgid "If there are related orders, their currencies will not change!"
+msgstr "Если подписка привязана к заказу, валюта заказа НЕ БУДЕТ изменена!"
+
+msgid "This page totals:"
+msgstr "Итого на этой странице:"
+
+msgid "Store Currency"
+msgstr "Валюта магазина"
+
+msgctxt "Note about Currencylayer"
+msgid "(existing accounts only)"
+msgstr "(новые аккаунты не регистрируются)"
+
+msgctxt "rate_provider"
+msgid "Fixed Rates"
+msgstr "Фиксированные курсы"
+
+msgid ""
+"Thank you for installing the multi-currency extension! We appreciate your "
+"business!"
+msgstr "Благодарим вас за установку расширения!"
+
+#. translators: placeholders for HTML "a" tag linking 'here' to the Support page.
+msgid ""
+"Please configure the settings using the instructions below. Should you need "
+"help, please contact our technical support by clicking %1$shere%2$s."
+msgstr ""
+"Пожалуйста, настройте параметры, следуя приведенным ниже инструкциям. Если "
+"вам нужна помощь, пожалуйста, свяжитесь с нашей службой технической "
+"поддержки, нажав %1$sздесь%2$s."
+
+msgid "Currency Exchange Rates"
+msgstr "Курсы валют"
+
+msgid ""
+"To switch between currencies, your website needs to get the exchange rates "
+"from one of the service providers."
+msgstr ""
+"Для работы в мультивалютном режиме необходимо получать информацию о курсах "
+"валют от одного из провайдеров."
+
+msgid ""
+"Alternatively, you can select the FixedRates option and enter the rates "
+"manually."
+msgstr "Или выберите опцию FixedRates и введите курсы валют вручную."
+
+#. translators: %1$, %2$ are HTML tags linking "here" to documentation.
+msgid "Please read the instructions %1$shere%2$s."
+msgstr "Прочтите инструкции %1$sздесь%2$s."
+
+msgid "Service Provider"
+msgstr "Провайдер"
+
+msgid "Please choose one."
+msgstr "Пожалуйста, выберите из списка."
+
+msgid "Rates update schedule"
+msgstr "Частота обновления курсов валют"
+
+msgid "Not applicable to FixedRates"
+msgstr "Не используется с опцией FixedRates"
+
+msgid ""
+"Currency exchange rates were not retrieved. Additional information may be "
+"available in the log."
+msgstr ""
+"Курсы валют не были получены. Дополнительная информация может быть доступна "
+"в журнале."
+
+msgid "Rates updated on "
+msgstr "Дата обновления курсов валют: "
+
+msgid "Enabled currencies"
+msgstr "Доступные валюты"
+
+msgid "Please specify all currencies you plan to use."
+msgstr "Пожалуйста, укажите все валюты, которые вы планируете использовать."
+
+#. translators: %s - "Save changes"
+msgid "Then please click the [%s] button at the bottom to continue."
+msgstr "Для продолжения нажмите кнопку [%s] внизу страницы."
+
+msgid "Currencies"
+msgstr "Валюты"
+
+msgid "Select all currencies that will be available on your website."
+msgstr "Выберите все валюты, которые будут доступны на вашем сайте."
+
+msgid "Select currencies"
+msgstr "Выберите валюты"
+
+msgid "Fallback currency"
+msgstr "Валюта по умолчанию"
+
+msgid "By default, show prices in this currency."
+msgstr "Если валюта страны посетителя нами не поддерживается, выбираем эту."
+
+msgid "Fixed Rates"
+msgstr "Фиксированные курсы валют"
+
+msgid "Enter the exchange rate of each currency relative to the US Dollar."
+msgstr "Введите курсы валют относительно доллара США."
+
+msgid "Currency Symbols"
+msgstr "Символы валют"
+
+msgid ""
+"Change the currency symbol. Enter, for example, <code>C$</code> for Canadian "
+"Dollars."
+msgstr ""
+"Замените символ валюты. Например, <code>C$</code> для обозначения канадских "
+"долларов."
+
+#. translators: placeholder for the currency symbol.
+msgid "%s symbol"
+msgstr "Символ для %s"
+
+msgctxt "Settings placeholder"
+msgid "Default"
+msgstr "По умолчанию"
+
+msgid "Price Conversion Settings"
+msgstr "Настройки пересчета цен"
+
+msgid "Fine-tune the prices after currency conversion."
+msgstr "Установите параметры округления цен после пересчета по курсу."
+
+msgid "Example"
+msgstr "Пример"
+
+msgid "product price"
+msgstr "цена товара"
+
+msgid "price after conversion"
+msgstr "цена после пересчета"
+
+msgid "change the values below to recalculate"
+msgstr "измените значения в полях чтобы пересчитать"
+
+msgid "Add a conversion fee (%)"
+msgstr "Добавить наценку на курс (%)"
+
+msgid "Enter 2.5 to increase the converted price by 2.5%"
+msgstr "Введите 2.5 чтобы увеличить сумму после пересчета на 2.5%"
+
+msgid "Round up to"
+msgstr "Округлить вверх до"
+
+msgid "Enter 10 to round 123.45 to 130"
+msgstr "Введите 10 чтобы округлить 123.45 до 130"
+
+msgid "Price charm"
+msgstr "Психология цен"
+
+msgid "Enter 0.01 to show 50 as 49.99"
+msgstr "Введите 0.01 чтобы показывать 49.99 вместо 50"
+
+msgid "Use adaptive rounding?"
+msgstr "Использовать адаптивный алгоритм округления?"
+
+msgid ""
+"Check this box to make the rounding and charming dependent on the price."
+msgstr "Отметьте, чтобы округление зависело от цены."
+
+msgid "See the calculation example above."
+msgstr "См. расчет в таблице."
+
+msgid "\"Raw\" shipping fees conversion"
+msgstr "Пересчёт параметров стоимости доставки"
+
+msgid "Do not apply rounding, charming, and fee to the shipping fees."
+msgstr "Не применять округление, психологию цен и плату за доставку."
+
+msgid "Price formats"
+msgstr "Форматы представления цен"
+
+msgid ""
+"Here you can change the way the prices are displayed, separately for each "
+"currency."
+msgstr ""
+"Здесь вы можете изменить формат отображения цены - отдельно для каждой "
+"валюты."
+
+#. translators: placeholder for the WooCommerce price format.
+msgid "The default format is <code>%s</code>"
+msgstr "Формат по умолчанию: <code>%s</code>"
+
+#. translators: placeholders will be displayed as-is.
+msgid ""
+"The <code>%1$s</code> is the placeholder for the currency symbol. <code>"
+"%2$s</code> - for the amount."
+msgstr ""
+"<code>%1$s</code> заменяется на символ валюты. <code>%2$s</code> - на сумму."
+
+#. translators: placeholders will be displayed as-is.
+msgid ""
+"For example, if you want the currency symbol to go after the amount, you can "
+"use the <code>%2$s%1$s</code> format."
+msgstr ""
+"Например, если вы хотите показывать символ валюты после суммы, можно "
+"использовать формат <code>%2$s%1$s</code>."
+
+#. translators: placeholder for the currency symbol.
+msgid "%s price format"
+msgstr "Формат цены для %s"
+
+msgid "Link currency to language"
+msgstr "Привязка валюты к языку"
+
+msgid ""
+"If you would like to set the currency <strong>automatically</strong> when "
+"the language is switched, please set the \"Language - Currency\" pairs below."
+msgstr ""
+"Если вы хотите устанавливать валюту <strong>автоматически</strong> при "
+"переключении языка, пожалуйста, установите пары \"Язык - Валюта\"."
+
+msgid ""
+"Note: our Currency Selector Widget can be used for the <strong>manual</"
+"strong> currency switching, independently of the language. In that case, the "
+"below settings will be ignored."
+msgstr ""
+"Внимание: наш Виджет Выбора Валюты может быть использован для "
+"<strong>ручной</strong> установки валюты пользователем, независимо от языка "
+"и страны. В этом случае нижеуказанные настройки будут игнорированы."
+
+msgid "Not linked"
+msgstr "Не привязан"
+
+#. translators: placeholder for the language name.
+msgid "Currency to use when the language is switched to %s."
+msgstr "Валюта, которую нужно установить при переключении языка на %s."
+
+msgid ""
+"To use this option, you need to install and activate one of the supported "
+"multilingual plugins:"
+msgstr ""
+"Чтобы использовать эту возможность, установите и активируйте один из "
+"поддерживаемых мультиязычных плагинов:"
+
+msgid "If checked, you can enter product prices for each currency."
+msgstr ""
+"Если установлен этот флажок, вы можете ввести цены на товары для каждой "
+"валюты."
+
+msgid "(Simple and variable products and subscriptions only)"
+msgstr "(Только простые и вариативные товары и подписки)"
+
+#. translators: %s placeholder for the New product editor
+msgid "\"%s\" feature must be disabled to enter the prices per currency."
+msgstr "для ввода цен в валюте функция \"%s\" должна быть отключена."
+
+msgid "Allow custom product pricing for extra currencies"
+msgstr "Разрешить индивидуальные цены продуктов для дополнительных валют"
+
+msgid "Disable currency switcher on account and payment pages"
+msgstr "Скрыть переключатели валют на страницах аккаунта и оплаты"
+
+msgid ""
+"If checked, the currency selector widgets and shortcodes will be hidden on "
+"Cart, Checkout and My Account pages."
+msgstr ""
+"Если установлен этот флажок, виджеты и шорткоды переключения валюты будут "
+"скрыты на страницах аккаунта, корзины и кассы."
+
+msgid "Lazy-load JS scripts"
+msgstr "Поздняя загрузка JS-скриптов"
+
+msgid ""
+"Load scripts dynamically to speed-up the page load - recommended for UX and "
+"SEO."
+msgstr ""
+"Динамически загружать скрипты для ускорения загрузки страницы - "
+"рекомендуется для UX и SEO."
+
+msgid "Client-side cookies only"
+msgstr "Устанавливать cookies только на фронтенде"
+
+msgid ""
+"Do not enable this unless asked by Support. Does not work with some page "
+"caching plugins!"
+msgstr ""
+"Не включайте, если вас не попросила служба поддержки. Эта опция может "
+"привести к некорректной работе при наличии некоторых систем кэширования!"
+
+msgid "View logs"
+msgstr "Просмотр журнала сообщений"
+
+msgid "Log level"
+msgstr "Уровень детализации сообщений в журнале"
+
+msgid "What to write to the log file."
+msgstr "Какие сообщения нужно записывать в журнал."
+
+msgid "Nothing"
+msgstr "Ничего"
+
+msgid "Error conditions"
+msgstr "Сообщения об ошибках"
+
+msgid "Informational messages"
+msgstr "Информационные сообщения"
+
+msgid "Debug-level messages"
+msgstr "Сообщения уровня отладки"
+
+msgid "Debug with tracing"
+msgstr "Уровень отладки с трассировкой"
+
+msgid "Saving changes is not permitted."
+msgstr "Сохранение изменений не разрешено."
+
+msgctxt "rounding_table"
+msgid "Original"
+msgstr "Цена"
+
+msgctxt "rounding_table"
+msgid "Converted"
+msgstr "По курсу"
+
+msgctxt "rounding_table"
+msgid "With fee"
+msgstr "С наценкой"
+
+msgctxt "rounding_table"
+msgid "Rounded"
+msgstr "Округлённая"
+
+msgctxt "rounding_table"
+msgid "With charm"
+msgstr "Психологическая"
+
+msgctxt "Settings tab title"
+msgid "Multi-currency"
+msgstr "Мультивалютность"
+
+msgid "Preferred Currency"
+msgstr "Валюта по умолчанию"
+
+msgid "Currency to set active upon login"
+msgstr "Валюта, которая будет активна при входе в систему"
+
+msgid "TIV Multi-currency"
+msgstr "TIV Multi-currency"
+
+msgid "https://woocommerce.com/products/multi-currency/"
+msgstr "https://woocommerce.com/products/multi-currency/"
+
+msgid "Multi-currency support for WooCommerce"
+msgstr "Подержка нескольких валют для WooCommerce"
+
+msgid "TIV.NET INC"
+msgstr "TIV.NET INC"
+
+msgid "https://woocommerce.com/vendor/tiv-net-inc/"
+msgstr "https://woocommerce.com/vendor/tiv-net-inc/"
+
+msgid ""
+"Provides support for multiple currencies in WooCommerce store by making "
+"different cache snapshots for different currencies."
+msgstr ""
+"Обеспечивает поддержку мультивалютности в WooCommerce, кэшируя различные "
+"версии страниц для разных валют."

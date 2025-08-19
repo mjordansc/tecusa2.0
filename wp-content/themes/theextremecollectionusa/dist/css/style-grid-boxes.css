@@ -1,0 +1,64 @@
+/*
+==============================
+Page Grid
+Section: Boxes
+==============================
+*/
+
+.grid-boxes .card-servicios {
+  box-shadow:0 2px 4px 0 rgba(0,0,0,.2);
+  top:-25%;
+  position:relative;
+  z-index:2;
+  margin-right:1.5rem;
+  margin-left:1.5rem;
+}
+
+/*
+==============================
+Page Grid
+Section: Structure
+==============================
+*/
+
+.grid-boxes .row .col-lg-4 {
+  order:2;
+}
+.grid-boxes .row .col-lg-8 {
+  order:1;
+}
+
+/*
+==============================
+Media Queries
+==============================
+*/
+
+@media (min-width: 992px) {
+  .grid-boxes .row:nth-child(odd) .col-lg-4 {
+    order:1;
+  }
+  .grid-boxes .row:nth-child(odd) .col-lg-8 {
+    order:2;
+  }
+  .grid-boxes .row:nth-child(even) .col-lg-4 {
+    order:2;
+  }
+  .grid-boxes .row:nth-child(even) .col-lg-8 {
+    order:1;
+  }
+  .grid-boxes .row:nth-child(odd) .card-servicios {
+    top:auto;
+    position:relative;
+    z-index:2;
+    margin:0;
+    margin-right:-25%;
+  }
+  .grid-boxes .row:nth-child(even) .card-servicios {
+    top:auto;
+    position:relative;
+    z-index:2;
+    margin:0;
+    margin-left:-25%;
+  }
+}

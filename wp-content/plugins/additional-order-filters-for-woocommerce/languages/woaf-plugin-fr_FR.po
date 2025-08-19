@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Additional Order Filters for WooCommerce 1.02\n"
+"POT-Creation-Date: 2017-10-02 16:33+0300\n"
+"PO-Revision-Date: 2020-10-11 12:06+0300\n"
+"Last-Translator: \n"
+"Language-Team: Anton Bond\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: languages\n"
+
+#: additionalorderfilters.php:72
+msgid "Settings"
+msgstr "Réglages"
+
+#: additionalorderfilters.php:110
+msgid "Active filters:"
+msgstr "Filtres actifs:"
+
+#: additionalorderfilters.php:139
+msgid "Select all"
+msgstr "Sélectionner tout"
+
+#: additionalorderfilters.php:139
+msgid "Deselect all"
+msgstr "Désélectionner tout"
+
+#: additionalorderfilters.php:141
+msgid "Number of filters in the column:"
+msgstr "Nombre de filtres dans la colonne:"
+
+#: additionalorderfilters.php:165
+msgid "Order Statuses"
+msgstr "Statuts de commande"
+
+#: additionalorderfilters.php:168
+msgid "Payment Method"
+msgstr "Methode de paiement"
+
+#: additionalorderfilters.php:171
+msgid "Customer Group"
+msgstr "Groupe client"
+
+#: additionalorderfilters.php:174
+msgid "Shipping Method"
+msgstr "Méthode Expédition"
+
+#: additionalorderfilters.php:177
+msgid "Customer Email"
+msgstr "Client Email"
+
+#: additionalorderfilters.php:180
+msgid "Customer First Name"
+msgstr "Client Prénom"
+
+#: additionalorderfilters.php:183
+msgid "Customer Last Name"
+msgstr "Client Nom"
+
+#: additionalorderfilters.php:186
+msgid "Customer Billing Address"
+msgstr "Client adresse de facturation"
+
+#: additionalorderfilters.php:199
+msgid "Customer Billing Country"
+msgstr "Client pays de facturation"
+
+#: additionalorderfilters.php:189
+msgid "Customer Phone"
+msgstr "Client Téléphone"
+
+#: additionalorderfilters.php:192
+msgid "Track Number"
+msgstr "Numéro Tracking"
+
+#: additionalorderfilters.php:193
+msgid ""
+"This filter requires <a href=\"https://woocommerce.com/products/shipment-"
+"tracking/\" target=\"_blank\">Shipment Tracking</a> plugin."
+msgstr ""
+"Ce filtre fonctionne avec <a href=\"https://woocommerce.com/products/"
+"shipment-tracking/\" target=\"_blank\">Shipment Tracking</a> plugin."
+
+#: additionalorderfilters.php:196
+msgid "Search by SKU Number"
+msgstr "Rechercher par numéro SKU"
+
+#: additionalorderfilters.php:199
+msgid "Orders by Date Range"
+msgstr "Commandes par Période"
+
+#: additionalorderfilters.php:202
+msgid "Order Total"
+msgstr "Total commande"
+
+#: additionalorderfilters.php:221
+msgid "Additional Filters"
+msgstr "Filtres additionnels"
+
+#: additionalorderfilters.php:345
+msgid "Start date"
+msgstr "Date de début"
+
+#: additionalorderfilters.php:346
+msgid "End date"
+msgstr "Date de fin"
+
+#: additionalorderfilters.php:355
+msgid "from:"
+msgstr "de:"
+
+#: additionalorderfilters.php:359
+msgid "to:"
+msgstr "à:"
+
+#: additionalorderfilters.php:370
+msgid "Apply Filters"
+msgstr "Appliquer les filtres"
+
+#: additionalorderfilters.php:371
+msgid "Clear"
+msgstr "RAZ"

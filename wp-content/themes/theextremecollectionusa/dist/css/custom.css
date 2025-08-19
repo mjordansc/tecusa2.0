@@ -1,0 +1,770 @@
+/* Theme TEC USA */
+/* Custom CSS for TEC USA */
+
+/*
+==============================
+Page: ExtremeLadies
+Section: Image Gallery
+==============================
+*/
+
+.page-template-template-extremeladies h1 {
+  font-size: 1.3em;
+}
+@media (min-width: 992px) {
+  #extreme-gallery .col-lg-4 img {
+    object-fit: cover;
+    height: 35vh;
+    width: 100%;
+  }
+  #extreme-gallery .col-lg-8 img {
+    object-fit: cover;
+    object-position: center top;
+    height: 40vh;
+    width: 100%;
+  }
+  #extreme-gallery .col-lg-4.long-square img {
+    object-fit: cover;
+    height: 40vh;
+    width: 100%;
+  }
+  .page-template-template-extremeladies h1 {
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 1200px) and (max-height:1000px) {
+  #extreme-gallery .col-lg-4 img {
+    object-fit: cover;
+    height: 55vh;
+    width: 100%;
+  }
+  #extreme-gallery .col-lg-8 img {
+    object-fit: cover;
+    object-position: center top;
+    height: 55vh;
+    width: 100%;
+  }
+  #extreme-gallery .col-lg-4.long-square img {
+    object-fit: cover;
+    height: 55vh;
+    width: 100%;
+  }
+}
+
+/*
+==============================
+Page: Single Product
+Section: Breadcrumbs
+==============================
+*/
+
+
+@media (min-width: 992px) {
+  .breadcrumb-container,
+  .breadcrumb-container nav {
+    width: fit-content;
+  }
+  .breadcrumb-container::after {
+    content: '';
+    margin: 0 auto;
+    display: block;
+    height: 1px;
+    width: 150px;
+    border-bottom: 1px solid #171717;
+    padding-top: 10px;
+  }
+}
+
+/*
+==============================
+Page: Single Product
+Section: Woocommerce Notices
+==============================
+*/
+
+.woocommerce-notices-wrapper {
+  margin-top: 2.5rem;
+}
+.woocommerce-message .button {
+  margin-bottom: 1.5rem;
+}
+#single-product .woocommerce-message {
+  padding: 20px;
+}
+
+@media (min-width: 992px) {
+  .woocommerce-message .button {
+    width: 150px;
+    margin: unset;
+    margin-bottom: 1.5rem;
+    display: inline;
+    padding: 5px 10px;
+    margin-right: 1.5rem;
+  }
+
+}
+
+/*
+==============================
+Page: Single Product
+Section: Variations
+==============================
+*/
+
+.variations {
+  position: relative;
+}
+.variations td.value {
+  margin-top: -10px;
+}
+.variations .reset_variations {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: auto !important;
+  margin: 0 !important;
+}
+.iconic-was-chosen-attribute {
+	display: block;
+}
+.iconic-was-swatches--text-swatch .iconic-was-swatch--selected,
+.iconic-was-swatches--text-swatch .iconic-was-swatch--selected:hover {
+  background-color: #171717;
+  border-color: #171717;
+}
+
+/*
+==============================
+Page: Single Product
+Section: Quantity
+==============================
+*/
+
+.woocommerce-variation-add-to-cart.variations_button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 2rem 0;
+}
+.product .quantity input {
+  width: 60px;
+  height: 50px;
+}
+.product .single_add_to_cart_button.button {
+  width: auto;
+  margin: unset;
+  margin-left: 2.5rem;
+}
+.product .product_meta {
+  display: none;
+}
+
+
+/*
+==============================
+Page: Single Product
+Section: Sustainability
+==============================
+*/
+
+.product-section {
+  border-top: 1px solid #e7e7e7;
+}
+.sustainability-icons img {
+  width:80%;
+  padding: 10px 10px;
+}
+.sustainability-icons div {
+  width: 100px;
+}
+.sustainability-icons span {
+  font-size: 0.8em;
+}
+
+/*
+==============================
+Page: Single Product
+Section: Materials
+==============================
+*/
+
+.materials-section .text-center span {
+  font-size: 0.9em;
+}
+
+.woocommerce-product-gallery img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+==============================
+Page: Single Product
+Section: Size Guide
+==============================
+*/
+
+#sizeGuideButton {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  margin-bottom: 2rem;
+}
+.sizeguide-table {
+  margin: 0 auto;
+}
+.sizeguide-table thead td {
+  font-weight: 700;
+  border-bottom: 1px solid #171717;
+}
+.sizeguide-table td {
+  text-align: center;
+  border-bottom: 1px solid #e7e7e7;
+  min-width:80px;
+  padding: 10px 5px;
+  font-size: 0.95em;
+}
+#sizeGuideUnit {
+}
+@media (min-width: 768px) {
+  #sizeGuideModal .modal-dialog {
+    max-width: 700px;
+  }
+  #sizeGuideButton {
+    position: relative;
+    bottom: -4rem;
+    left: 20rem;
+    display: inline;
+    margin-bottom: 0;
+  }
+}
+
+/*
+==============================
+Page: One Column
+Section: Tables
+==============================
+*/
+
+.one-column table td {
+  border: 1px solid #e7e7e7;
+  padding: 5px;
+}
+
+/*
+==============================
+Page: My Account
+Section: Navigation
+==============================
+*/
+
+.woocommerce-MyAccount-navigation li {
+  border: 1px solid #e7e7e7;
+  padding: 10px;
+}
+.woocommerce-MyAccount-navigation li.is-active {
+  color: #fff;
+  background-color: #171717;
+}
+
+/*
+==============================
+Page: My Account
+Section: Orders
+==============================
+*/
+.shop_table.my_account_orders {
+  width: 100%;
+}
+.shop_table.my_account_orders td {
+  border: 0;
+  border-bottom: 1px solid #e7e7e7;
+}
+.shop_table.my_account_orders thead tr {
+  border-top: 1px solid #171717;
+  padding: 10px 0;
+}
+.shop_table.my_account_orders thead th {
+  padding: 10px 0;
+  border-bottom: 1px solid #171717;
+}
+
+/*
+==============================
+Page: My Account
+Section: Edit Address
+==============================
+*/
+.woocommerce-EditAccountForm .button,
+.woocommerce-address-fields .button {
+  margin: unset;
+  margin-top: 30px;
+  width: auto;
+}
+
+/*
+==============================
+Page: My Account
+Section: Login/Register
+==============================
+*/
+.woocommerce-form-login .button,
+.woocommerce-form-register .button {
+  margin: unset;
+  width: auto;
+  min-width: 120px;
+}
+.woocommerce-form-register .button {
+  margin-top: 30px;
+}
+
+/*
+==============================
+Page: About Us
+Section: Adriana & The Brand
+==============================
+*/
+
+@media (min-width: 992px) {
+  #about-us-adriana.extra-wrapper,
+  #the-brand.extra-wrapper {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #about-us-adriana.extra-wrapper,
+  #the-brand.extra-wrapper {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+@media (min-width: 1400px) {
+  #about-us-adriana.extra-wrapper,
+  #the-brand.extra-wrapper {
+    padding-left: 22%;
+    padding-right: 22%;
+  }
+}
+
+@media (min-width: 1600px) {
+  #about-us-adriana.extra-wrapper,
+  #the-brand.extra-wrapper {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+}
+
+/*
+==============================
+Page: About Us
+Section: Made in Spain
+==============================
+*/
+
+.madeinspain-logo {
+  width: 75%;
+}
+
+@media (min-width: 992px) {
+  .madeinspain-logo {
+    width: 50%;
+  }
+}
+
+/*
+==============================
+Page: About Us
+Section: Sustainability
+==============================
+*/
+
+.sustainability-icons-img {
+  width: 75%;
+}
+
+@media (min-width: 992px) {
+  .sustainability-icons-img {
+    width: 90%;
+  }
+  .text-col-right span,
+  .text-col-right div {
+    text-align: right;
+  }
+}
+
+/*
+==============================
+Page: About Us
+Section: Craftmanship
+==============================
+*/
+
+#about-us-craftmanship iframe {
+  height: 240px;
+}
+
+@media (min-width: 992px) {
+  #about-us-craftmanship iframe {
+    height: 360px;
+  }
+}
+/*
+==============================
+Page: About Us
+Section: Collaborations
+==============================
+*/
+
+.collaboration-logo {
+  width: 70%;
+}
+
+@media (min-width: 576px) {
+  .collaboration-logo {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .collaboration-logo {
+    width: 70%;
+  }
+}
+@media (min-width: 992px) {
+  .text-col-right span,
+  .text-col-right div {
+    text-align: right;
+  }
+  .collaboration-logo {
+    width: 80%;
+  }
+}
+
+/*
+==============================
+Page: Klarna FAQ
+Section: Logo
+==============================
+*/
+
+.logo-klarna-faq {
+  width: 150px;
+  margin:0 auto;
+}
+
+/*
+==============================
+Page: Klarna FAQ
+Section: Body
+==============================
+*/
+
+.one-column-klarna h3 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.1em;
+}
+
+.one-column-klarna h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2em;
+  font-size: 1.2em;
+}
+
+@media (min-width: 992px) {
+  .one-column-klarna h2 {
+    font-size: 1.5em;
+  }
+  .one-column-klarna h3 {
+    font-size: 1.3em;
+  }
+}
+
+/*
+==============================
+Page: Search
+Section: Search Results
+==============================
+*/
+
+.search-results-wrapper .entry-title {
+  font-size: 1.1em;
+}
+.search-results-wrapper .entry-title a {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 600;
+}
+.close span {
+  font-size: 1.5rem;
+}
+.search-results-wrapper img {
+  width: 150px;
+  height: auto;
+}
+.button.search-button {
+  width: 150px;
+}
+.aws-container .aws-search-field {
+  border: 0;
+}
+
+/*
+==============================
+Page: Intro
+Section: Form
+==============================
+*/
+
+.intro-title {
+  font-size: 2.5em;
+}
+.banner-intro {
+  min-height: 55vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+}
+.intro-content img {
+  width:300px;
+}
+.intro-form .select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: 20px !important;
+}
+
+.banner-intro-form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1031;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .banner-intro {
+    min-height: 100vh;
+  }
+  .page-template-template-intro {
+    overflow: hidden;
+  }
+  .intro-content {
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    z-index: 1032;
+  }
+  .intro-title {
+    font-size: 2.5em;
+  }
+  .intro-content img {
+    width: 250px;
+  }
+  .intro-form {
+    margin-top: 2rem;
+  }
+  .intro-form .button {
+    width: 92%;
+  }
+  .intro-form .button::before {
+    background: transparent;
+    z-index: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .intro-content img {
+    width: 300px;
+  }
+  .intro-form .select2-container {
+    width: 100px !important;
+    margin: 0 10px;
+  }
+  .intro-form .select2-container--default .select2-selection--single .select2-selection__arrow::after {
+    height: 7px;
+    width: 7px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+  }
+}
+
+@media (min-width: 992px) and (max-height: 1000px) {
+  .banner-intro {
+    min-height: 105vh;
+  }
+}
+
+@media (min-width: 1750px) {
+  .intro-content img {
+    width: 400px;
+  }
+  .intro-title {
+    font-size: 3em;
+  }
+  .intro-content {
+    right: 10%;
+  }
+  .intro-form .button {
+    width: 85%;
+  }
+}
+
+/*
+==============================
+Page: Home
+Section: Mailchimp Sign up Form
+==============================
+*/
+
+#newsletter-popup {
+  box-shadow: 0 0 4px 1px rgba(0,0,0,0.15);
+  padding: 1.5rem 1.5rem 1.5rem 2rem;
+  opacity: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  background-color: #fff;
+}
+#mc_embed_signup {
+  width: 100% !important;
+}
+#mc_embed_signup input {
+  border: 0 !important;
+  margin: 1rem 0;
+  border-bottom: 1px solid #171717 !important;
+}
+#mc_embed_signup .button {
+  border-radius: 0 !important;
+  background-color: #171717 !important;
+  border: 0 !important;
+  margin: 0 !important;
+  position: relative;
+  z-index: 1;
+  height: 45px !important;
+}
+#mc_embed_signup .button-frame {
+  z-index: 0;
+}
+#mc_embed_signup form {
+  display: none !important;
+}
+.submit-wrapper {
+  width: fit-content;
+}
+.newsletter-close {
+  font-weight: 600;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 5px;
+  left: 20px;
+}
+.newsletter-close-text {
+  display: none;
+}
+@media (max-width: 450px) {
+.newsletter-close-text {
+  margin-left: 7%;
+  font-weight: 600;
+  font-size: 0.75rem;
+  display: block;
+}
+}
+#newsletter-popup.show-newsletter {
+  opacity: 100%;
+  height: auto;
+  position: fixed;
+  top: unset;
+  left: 20%;
+  bottom: 10%;
+  right: 10px;
+  transition: all 700ms ease;
+  -webkit-transition: all 700ms ease;
+  -moz-transition: all 700ms ease;
+  -ms-transition: all 700ms ease;
+  -o-transition: all 700ms ease;
+}
+#newsletter-popup.show-newsletter #mc_embed_signup form {
+  display: block !important;
+}
+#mc_embed_signup #mce-responses {
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#mc_embed_signup #mce-success-response {
+  color: #171717 !important;
+  font-family: 'Lexend', sans-serif !important;
+}
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+  font-family: 'Lexend', sans-serif !important;
+  color: #EB5D55;
+}
+@media (min-width: 992px) {
+  #newsletter-popup.show-newsletter {
+    opacity: 100%;
+    height: auto;
+    position: fixed;
+    top: unset;
+    z-index: 99;
+    left: unset;
+    bottom: 20%;
+    right: 5%;
+    transition: all 700ms ease;
+    -webkit-transition: all 700ms ease;
+    -moz-transition: all 700ms ease;
+    -ms-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+  }
+}
+@media (min-width:1200px) {
+  #newsletter-popup {
+    width: 360px;
+  }
+}
+
+.pos-login-wrap .home-div h2 {
+  font-size:1.1em;
+}
+
+/*
+==============================
+Page: Contact Us
+Section: Contact Map
+==============================
+*/
+
+#contactMap {
+  height:40vh;
+}
+
+/*
+==============================
+Page: Product Category
+Section: Hover Alternate Image
+==============================
+*/
+
+ul.products li.product img.alternate-image {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+
+.woocommerce-currency-switcher .selector, 
+.woocommerce-currency-switcher .dropdown-content {
+  border: 0 !important;
+}
