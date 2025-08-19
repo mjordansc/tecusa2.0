@@ -9,7 +9,7 @@ Thumbs.db
 # wordpress specific
 wp-config.php
 wp-content/uploads/
-wp-content/productimages/
+/productimages/
 wp-content/advanced-cache.php
 .htaccess
 wp-content/debug.log
